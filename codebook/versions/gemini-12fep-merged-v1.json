@@ -1,0 +1,169 @@
+{
+  "codebook_metadata": {
+    "title": "Merged Codebook for the 12 Fundamental Existential Prerequisites (12FEP)",
+    "version": "1.0-MERGED",
+    "author": "Based exclusively on the works of Alfried Längle",
+    "theoretical_foundation": "Existential Analysis / Logotherapy",
+    "citations": {
+      "Längle, 2002": "Längle, A. (2002). Existential fundamental motivation. In Motivation, Consciousness and Self-Regulation (pp. 27–42). Nova Science Pub Inc. [Also cited as Längle, 2002b]",
+      "Längle, 2011": "Längle, A. (2011). The Existential Fundamental Motivations Structuring the Motivational Process. In D. A. Leontiev (Ed.), Motivation, Consciousness and Self-Regulation (pp. 27–42). Nova Science Publishers, Inc."
+    }
+  },
+  "instructions_for_llm": {
+    "overview": "Score participant testimony on the 12 Fundamental Existential Prerequisites (12FEP) on a scale of 0 (absent) to 5 (fully present).",
+    "general_coding_principles": [
+      "All scoring must be based exclusively on Längle's theoretical framework, utilizing the provided quotes and concepts.",
+      "Justification must explicitly identify evidence of the **'emotionally free (decided) stand'** or **'Inner Consent'** (Längle, 2002) and the fulfillment of the prerequisite's **'active part'**.",
+      "Each score must be justified with: (1) **Direct quote from participant testimony**, (2) **Specific Längle criterion with citation**, and (3) Analysis of relevant **coping reactions** or **phenomenological outcomes**."
+    ],
+    "justification_template": {
+      "fields": [
+        "prerequisite_name",
+        "score_0_to_5",
+        "participant_excerpt",
+        "langle_active_stance_matched",
+        "coping_reactions_analysis",
+        "rationale_linking_excerpt_to_langle_concept"
+      ]
+    }
+  },
+  "scoring_rubric_justification": {
+    "0_Absent": "Failure to meet the prerequisite; relies on basic coping reactions/deficits. **'Fails systematically'** to respond personally (Längle, 2002).",
+    "1_Minimal_Presence": "Barely present; **fleeting** or **fragile** signs; coping reactions **dominate**. Not yet **'in the outer dialogue'** (Längle, 2002).",
+    "2_Weak_Presence": "Limited and **inconsistent** evidence. Clear coping reactions are present; struggle with **'Inner Consent'**.",
+    "3_Moderate_Presence": "Active in the **'continuous dialogue (preoccupation)'**. Partial **'inner agreement'** and attempts to **'mobilize decisiveness'** (Längle, 2011). Shows the required **'active part'** (e.g., 'to accept and to endure').",
+    "4_Strong_Presence": "Consistent experience and **appropriation** with minor gaps. Largely achieved an **'emotionally free (decided) stand'** (Längle, 2002).",
+    "5_Fully_Present": "Unbroken **'Inner Consent'**; **stable experience** and corresponding **active stance**. The **'deepest and freest emotions correspond'** to intentions, reflecting a **'fulfilled existence'** (Längle, 2011)."
+  },
+  "fundamental_motivations": [
+    {
+      "motivation_number": 1,
+      "motivation_name": "Being There (Dealing with the World)",
+      "existential_question": "**I am – can I be?** Can I claim my place in this world under the conditions and with the possibilities I have? (Längle, 2002)",
+      "positive_outcome": "The sum of these experiences of trust is the **fundamental trust** (Längle, 2002).",
+      "prerequisites": [
+        {
+          "fep_id": "1.1_Protection",
+          "fep_name": "Protection",
+          "definition": "Do I enjoy protection, acceptance, do I **feel at home** somewhere? (Längle, 2002)",
+          "active_participation_required": "My active part is to **'accept'**... to **rely on the support** and to **trust the protection**; in short **'to be there'** and **not to flee** (Längle, 2002).",
+          "indicators_of_presence": ["Trust in the world and **confidence in myself** (Längle, 2011)", "Active ability to accept the positive sides and to endure the negative ones (Längle, 2002)"],
+          "indicators_of_absence": ["**Insecurity and fear** (Längle, 2002)", "Basic reaction: **avoidance or flight** (Längle, 2002)", "Aggression: destructive aggression such as **hate** (Längle, 2002)"]
+        },
+        {
+          "fep_id": "1.2_Space",
+          "fep_name": "Space",
+          "definition": "Do I have **enough space** for being there? (Längle, 2002)",
+          "active_participation_required": "To accept means to be **ready to occupy the space** (Längle, 2002). Man procures himself the space he needs with his ability to **endure and to accept conditions** (Längle, 2002).",
+          "indicators_of_presence": ["Ability to **'let each other be, because there is still enough space for me'** (Längle, 2002)"],
+          "indicators_of_absence": ["**Restlessness** (Längle, 2002)", "Activism: **overactivity** like fighting bacteria by **compulsive washing** (Längle, 2002)", "Feeling **cramped, restricted, or overwhelmed**."]
+        },
+        {
+          "fep_id": "1.3_Support",
+          "fep_name": "Support",
+          "definition": "Where do I find **support** in my life? (Längle, 2002)",
+          "active_participation_required": "The **force to let be** whatever is difficult, menacing or unalterable and to **'tolerate'** what cannot be changed (Längle, 2002).",
+          "indicators_of_presence": ["**Rely on the support** (Längle, 2002)", "Accepting that these conditions are **reliable, solid and steady** (Längle, 2002)"],
+          "indicators_of_absence": ["Lacking the **'fundamental trust'** (Längle, 2011)", "Inability to **'endure'** the negative sides (Längle, 2002)", "Freezing: **denial** or **pretending to be non-existent** (Längle, 2002)"]
+        }
+      ]
+    },
+    {
+      "motivation_number": 2,
+      "motivation_name": "Liking Life (Dealing with Life)",
+      "existential_question": "**I am alive – do I like this fact?** Is it good to be there? (Längle, 2002)",
+      "positive_outcome": "These experiences form the **fundamental value**, the most profound feeling for the value of life (Längle, 2002).",
+      "prerequisites": [
+        {
+          "fep_id": "2.1_Relationship",
+          "fep_name": "Relationship",
+          "definition": "Do I have **relationships**, in which I feel closeness... and in which I experience **community**? (Längle, 2002)",
+          "active_participation_required": "**'I seize life, engage in it, when I turn to other people'**... or pull it towards me (Längle, 2002).",
+          "indicators_of_presence": ["**Go towards it** (Längle, 2002)", "**Being in harmony with the world and with myself** (Längle, 2002)"],
+          "indicators_of_absence": ["**Longing, coldness** and finally **depression** (Längle, 2002)", "Basic coping reaction: **regression** (Längle, 2002)", "**Negligence in one's life style** that makes life stale (Längle, 2002)"]
+        },
+        {
+          "fep_id": "2.2_Time",
+          "fep_name": "Time",
+          "definition": "**What do I take time for?**... To take time for something means to give away a part of one’s life (Längle, 2002).",
+          "active_participation_required": "**'Do I take time for valuable things, worthy to spend my time for?'** (Längle, 2002).",
+          "indicators_of_presence": ["**Conscious, meaningful time allocation** to relationships/activities of worth."],
+          "indicators_of_absence": ["**Shallowness of daily life** (Längle, 2002)", "Activism: **overprotection or achievement** (Längle, 2002)", "Wasting time or empty time usage."],
+          "note_on_scoring": "Focus on the **value** of what time is spent on, not just the amount of time."
+        },
+        {
+          "fep_id": "2.3_Closeness",
+          "fep_name": "Closeness",
+          "definition": "Is there **closeness** in my relationships? (Längle, 2002)",
+          "active_participation_required": "**My consent to being touched is necessary** (Längle, 2002). The **willingness to let myself be touched** by what is valuable in the situation (Längle, 2002).",
+          "indicators_of_presence": ["This **'to turn to'** will **'make life vibrate within me'** (Längle, 2002)", "Ability to **admit the closeness** of someone else (Längle, 2002)"],
+          "indicators_of_absence": ["Aggression: **fury, rage**... to **'agitate the other person'** to obtain the relationship (Längle, 2002)", "Freezing: **Resignation** reaction of **feigned death paralyzed half-way** (Längle, 2002)", "Maintaining **emotional distance** from others."]
+        }
+      ]
+    },
+    {
+      "motivation_number": 3,
+      "motivation_name": "Being a Person (Dealing with Self)",
+      "existential_question": "**I am myself – may I be like this?** Do I feel free to be like that? (Längle, 2002)",
+      "positive_outcome": "I will find myself, find my authenticity, my relief and my **self-esteem** (Längle, 2002).",
+      "prerequisites": [
+        {
+          "fep_id": "3.1_Attention",
+          "fep_name": "Attention",
+          "definition": "Do I feel **seen** in my uniqueness? (Längle, 2002)",
+          "active_participation_required": "**'Say 'yes to myself''** (Längle, 2002). **Encounter** which makes me find my **'own 'I' in the 'you''** (Längle, 2002).",
+          "indicators_of_presence": ["Ability to **encounter** (Längle, 2002)", "The ability to **stand by my own self** at its core (Längle, 2002)"],
+          "indicators_of_absence": ["The result will be **solitude** (Längle, 2002)", "Basic reaction: **distancing oneself** (Längle, 2002)", "**Need to hide behind the shame** (Längle, 2002)"]
+        },
+        {
+          "fep_id": "3.2_Justice",
+          "fep_name": "Justice",
+          "definition": "Do people do me **justice**? For what can I take **responsibility**? (Längle, 2002)",
+          "active_participation_required": "to **'delimitate myself'** and to **'stand by my own'**, but to **'refuse whatever does not correspond to myself'** (Längle, 2002).",
+          "indicators_of_presence": ["**Regret** as one of the two means by which we can live our **authenticity** (Längle, 2002)", "Setting **boundaries congruently**."],
+          "indicators_of_absence": ["Activism: **stubborn insistence** and **leading a functional life** (Längle, 2002)", "Aggression: **indignation, annoyance – anger, reproach** (Längle, 2002)", "Experiences of **unfair** or **unjust** treatment."]
+        },
+        {
+          "fep_id": "3.3_Appreciation",
+          "fep_name": "Appreciation",
+          "definition": "For what am I **appreciated** – for what can I appreciate myself? (Längle, 2002)",
+          "active_participation_required": "Thus I create for myself the **appreciation** requisite for **feeling entitled to be what I am** (Längle, 2002).",
+          "indicators_of_presence": ["**Authenticity** and **self-respect** (Längle, 2002)", "The ability to **stand by their uniqueness** (Längle, 2002)"],
+          "indicators_of_absence": ["Freezing type: **dissociation of the bodily integrity, dividing and splitting of emotion and cognition** (Längle, 2002)", "Pathological outcome: **histrionic symptoms and/or personality disorders** arise (Längle, 2002)."]
+        }
+      ]
+    },
+    {
+      "motivation_number": 4,
+      "motivation_name": "Seeing Meaning (Dealing with Meaning/Future)",
+      "existential_question": "**I am there – for what is it good?** (Längle, 2002)",
+      "positive_outcome": "**Fulfillment** of my existence in its core (Längle, 2002).",
+      "prerequisites": [
+        {
+          "fep_id": "4.1_Field_of_Activity",
+          "fep_name": "Field of Activity",
+          "definition": "Is there a place where I feel **needed**, where I can be **productive**? (Längle, 2002)",
+          "active_participation_required": "The **'phenomenological attitude'** is needed, an **'attitude of openness'** (Längle, 2002). The recognition of **'what my life is all about'** (Längle, 2002).",
+          "indicators_of_presence": ["**Dedication** and **productivity**; **'dealing with the questions put before me in each situation'** (Längle, 2002)"],
+          "indicators_of_absence": ["**Loss of interest** and **apathy** (Längle, 2002)", "Basic reaction: **'planless, day-to-day attitude toward life'** (Längle, 2002)", "Feeling of **emptiness, frustration, even despair** (Längle, 2002)."]
+        },
+        {
+          "fep_id": "4.2_Structural_Context",
+          "fep_name": "Structural Context",
+          "definition": "Do I see and experience myself in a **larger context** that provides structure and **orientation**? (Längle, 2002)",
+          "active_participation_required": "My active part is to **'bring myself into agreement with the situation'**, to examine whether what I am doing is really a **good thing**... for my environment (Längle, 2002).",
+          "indicators_of_presence": ["**Integration** into something greater (Längle, 2002)", "Orientation expressed (e.g., 'I am working at a cathedral') (Längle, 2002)"],
+          "indicators_of_absence": ["Freezing: **Fatalism** and probably **nihilism** (Längle, 2002)", "Aggression: **aggressive games and cynicism** (Längle, 2002)", "Sense of **disintegration** or **lack of orientation**."]
+        },
+        {
+          "fep_id": "4.3_Value to be realized in the future",
+          "fep_name": "Value to be realized in the future",
+          "definition": "Do I see a **value** to be realized in the **future**? (Längle, 2002)",
+          "active_participation_required": "Deciding for **'the most valuable, realistic possibility'**... for which I feel I **'should decide myself'** (Längle, 2002). Living out of **Self-transcendence** (Längle, 2002).",
+          "indicators_of_presence": ["Names a specific **to-be-realized value** (Längle, 2002)"],
+          "indicators_of_absence": ["Basic reaction: a **'provisional attitude towards life'** (Längle, 2002)", "Activism: **idealisation and fanaticism** (Längle, 2002)", "Pathological outcome: mainly lead to **addictions** (Längle, 2002)."]
+        }
+      ]
+    }
+  ]
+}

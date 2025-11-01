@@ -1,0 +1,363 @@
+{
+"title": "Merged 12 Fundamental Existential Prerequisites (12FEP) — Längle-Grounded Codebook",
+"version": "2.0 (merged)",
+"merged_from": [
+"chatgpt-12fep-v1.json ",
+"claude-12fep-v1.json ",
+"gemini-12fep-v1.json "
+],
+"purpose": "Score participant testimony from psychological interventions on the twelve existential prerequisites that operationalize Längle’s four Existential Fundamental Motivations (EFMs). All constructs, indicators, and quotes are drawn from Längle’s works.",
+"scale": {
+"range": "0–5",
+"anchors": {
+"0": "Not present; opposite experience predominates (e.g., “restlessness, insecurity and fear”; “longing… coldness… depression”; “solitude… shame”; “emptiness… despair”).",
+"1": "Barely present; fleeting or fragile signs; coping reactions dominate (e.g., “avoidance or flight… overactivity… destructive aggression… denial”; “regression”).",
+"2": "Partly present; intermittent signs without stable appropriation (“it is not enough to find… I also have to… accept”).",
+"3": "Moderately present; clear signs plus some active stance (e.g., “to accept… and to endure”; “turn to… get into touch”).",
+"4": "Strongly present; consistent experience and appropriation with minor gaps.",
+"5": "Fully present; stable experience and corresponding active stance (e.g., “to be there and not to flee”; “consent to being touched”; “say ‘yes to myself’”; “attitude of openness… ‘What does this hour want from me?’”)."
+}
+},
+"global_instructions_for_llms": [
+"Use only concepts and phrasing grounded in Längle’s texts. Every score must be justified with (1) a participant quote and (2) a short direct quote from Längle placed in the item’s “anchor_quotes”/“active_stance_quote.”",
+"Treat the four cornerstones—world, life, person, meaning—as structuring motivation and calling for “inner consent.” Identify both experiential evidence and active stance.",
+"Meaning: apply Längle’s definition of meaning as “the most valuable, realistic possibility of the given situation, for which I feel I should decide myself.”",
+"When evidence is mixed, favor the lower score unless the participant shows the relevant active stance (accept/endure; turn to/consent to being touched; say yes to self/encounter/delimit; openness to what life asks).",
+"Use negative indicators and coping patterns to justify low scores (0–1) and the presence of outcomes (trust/fundamental value/self-esteem/fulfillment) to justify higher scores."
+],
+"justification_template": {
+"fields": [
+"prerequisite_name",
+"score_0_to_5",
+"participant_excerpt",
+"presence_or_absence_indicators_matched",
+"langle_anchor_quote",
+"rationale_linking_excerpt_to_quote"
+],
+"example": {
+"prerequisite_name": "Time (E2)",
+"score_0_to_5": 5,
+"participant_excerpt": "I protect Friday evenings for my kids—nothing overrides that.",
+"presence_or_absence_indicators_matched": [
+"Deliberately taking time for what is valuable",
+"Consistent life-time investment"
+],
+"langle_anchor_quote": "“What do I take time for?… To take time for something means to give away a part of one’s life.”",
+"rationale_linking_excerpt_to_quote": "The practice shows conscious giving of life-time to what is valuable, matching Längle’s criterion."
+}
+},
+"validation_checks": [
+"Internal consistency within each EFM (Protection/Space/Support; Relationship/Time/Closeness; Attention/Justice/Appreciation; Field/Structure/Value).",
+"Sequential logic: very high E4 with very low E1–E3 should be examined.",
+"Coping alignment: basic/activism/aggression/freezing patterns should align with lower scores on the corresponding EFM."
+],
+"output_schema_for_llms": {
+"prerequisite_name": "string",
+"score": "integer (0–5)",
+"participant_quote": "string",
+"längle_anchor_quote": "string",
+"coping_reactions_analysis": "string",
+"phenomenological_outcomes": "string",
+"active_participation_assessment": "string",
+"rationale": "string"
+},
+"items": [
+{
+"id": 1,
+"cornerstone": "World (E1)",
+"name": "Protection",
+"fundamental_question": "“I am—can I be?”",
+"anchor_quotes": [
+"“This demands three things: protection, space and support.”",
+"“Do I enjoy protection, acceptance, do I feel at home somewhere?”",
+"“The sum of these experiences of trust is the fundamental trust.”"
+],
+"indicators_present": [
+"Acceptance/belonging; “feel at home.”",
+"Speaks of “trust in the world and confidence in myself.”"
+],
+"indicators_absent": [
+"“Restlessness, insecurity and fear.”",
+"Coping: “avoidance or flight… overactivity… destructive aggression… denial.”"
+],
+"active_stance_quote": "“To accept… to rely on the support and to trust the protection; in short ‘to be there’ and not to flee.”",
+"scoring_guidance": {
+"0_1": "Fear/insecurity dominate; flight/denial prominent.",
+"2_3": "Some safety without stable acceptance/reliance.",
+"4_5": "Stable felt protection plus explicit acceptance/‘being there.’"
+}
+},
+{
+"id": 2,
+"cornerstone": "World (E1)",
+"name": "Space",
+"fundamental_question": "“I am—can I be?”",
+"anchor_quotes": [
+"“Do I have enough space for being there?”",
+"“To accept means to be ready to occupy the space.”"
+],
+"indicators_present": [
+"Room to exist/act; readiness to “occupy the space.”",
+"Ability “to let each other be, because there is still enough space for me.”"
+],
+"indicators_absent": [
+"Constrained/crowded; withdrawal/overactivity.",
+"Denial or pretending to be non-existent."
+],
+"active_stance_quote": "“To accept… to be ready to occupy the space.”",
+"scoring_guidance": {
+"0_1": "No perceived room; withdrawal/flight.",
+"2_3": "Some room but inconsistent appropriation.",
+"4_5": "Consistently takes and holds space in life contexts."
+}
+},
+{
+"id": 3,
+"cornerstone": "World (E1)",
+"name": "Support",
+"fundamental_question": "“I am—can I be?”",
+"anchor_quotes": [
+"“Where do I find support in my life?”",
+"“Fundamental trust… the last support in my life.”"
+],
+"indicators_present": [
+"Identifies reliable supports; relies on them.",
+"“Trust in the world and confidence in myself… faith in God.”"
+],
+"indicators_absent": [
+"Groundlessness; anxiety when coping fails.",
+"Avoidance/flight; destructive aggression."
+],
+"active_stance_quote": "“To rely on the support… and… not to flee.”",
+"scoring_guidance": {
+"0_1": "No support felt; mistrust/anxiety evident.",
+"2_3": "Some support but fragile reliance.",
+"4_5": "Stable supports and explicit reliance in action/decisions."
+}
+},
+{
+"id": 4,
+"cornerstone": "Life (E2)",
+"name": "Relationship",
+"fundamental_question": "“I am alive—do I like this fact?”",
+"anchor_quotes": [
+"“In order to seize my life, to love it, I need three things: relationship, time and closeness.”",
+"“Do I have relationships… in which I experience community?”"
+],
+"indicators_present": [
+"Turns toward others: “turn to… get into touch.”",
+"Harmony with world/self; “depth of life.”"
+],
+"indicators_absent": [
+"“Longing… coldness… depression.”",
+"Coping: regression/achievement/overprotection; rage to agitate the other."
+],
+"active_stance_quote": "“I seize life… when I turn to other people… get into touch…”",
+"scoring_guidance": {
+"0_1": "Isolation/coldness/depressive tone.",
+"2_3": "Some connections without consistent turn-toward.",
+"4_5": "Sustained, reciprocal relationships with active turning-toward."
+}
+},
+{
+"id": 5,
+"cornerstone": "Life (E2)",
+"name": "Time",
+"fundamental_question": "“I am alive—do I like this fact?”",
+"anchor_quotes": [
+"“What do I take time for?… To take time for something means to give away a part of one’s life.”"
+],
+"indicators_present": [
+"Deliberately gives time to “valuable” things; protects time.",
+"Reports harmony and valuing of life."
+],
+"indicators_absent": [
+"“Shallowness of daily life… negligence… make life stale.”",
+"Depressive tone; reactive rage about time."
+],
+"active_stance_quote": "“To take time… means to give away a part of one’s life.”",
+"scoring_guidance": {
+"0_1": "No protected time for what is valuable; staleness noted.",
+"2_3": "Inconsistent time-giving to valued domains.",
+"4_5": "Consistent, value-guided investment of life-time."
+}
+},
+{
+"id": 6,
+"cornerstone": "Life (E2)",
+"name": "Closeness",
+"fundamental_question": "“I am alive—do I like this fact?”",
+"anchor_quotes": [
+"“Can I feel close… Can I admit the closeness of someone else?”",
+"“This ‘to turn to’ will make life vibrate within me… my consent to being touched is necessary.”"
+],
+"indicators_present": [
+"Readiness to be moved; admits closeness; “get into touch.”",
+"Life “vibrates within me.”"
+],
+"indicators_absent": [
+"Coldness; regression; resignation reaction.",
+"Depression when unresolved."
+],
+"active_stance_quote": "“My consent to being touched (to feeling) is necessary.”",
+"scoring_guidance": {
+"0_1": "Emotional numbing/withdrawal; regression patterns.",
+"2_3": "Occasional closeness but guarded.",
+"4_5": "Open, sustained closeness and affective responsiveness."
+}
+},
+{
+"id": 7,
+"cornerstone": "Person (E3)",
+"name": "Attention",
+"fundamental_question": "“I am myself—may I be like this?”",
+"anchor_quotes": [
+"“By whom am I seen? Who considers my uniqueness and respects my boundaries?”",
+"“Encounter represents the necessary bridge…”"
+],
+"indicators_present": [
+"Feels seen; boundaries respected; genuine encounter.",
+"Emerging “authenticity… relief… self-respect… self-esteem.”"
+],
+"indicators_absent": [
+"“Solitude… need to hide behind the shame.”",
+"Distancing oneself; dissociation/splitting."
+],
+"active_stance_quote": "“Say ‘yes to myself’… encounter… delimitate myself.”",
+"scoring_guidance": {
+"0_1": "Unseen/violated boundaries; shame/withdrawal.",
+"2_3": "Intermittent experiences of being seen/respected.",
+"4_5": "Consistent feeling of being seen with self-affirming stance."
+}
+},
+{
+"id": 8,
+"cornerstone": "Person (E3)",
+"name": "Justice",
+"fundamental_question": "“I am myself—may I be like this?”",
+"anchor_quotes": [
+"“Do people do me justice?”",
+"Active: “to delimitate myself and to stand by my own… refuse whatever does not correspond to myself.”"
+],
+"indicators_present": [
+"Fair treatment; sets boundaries; stands by own.",
+"Can “say ‘yes to myself’.”"
+],
+"indicators_absent": [
+"Indignation/annoyance—anger, reproach.",
+"Stubborn insistence; merely functional life."
+],
+"active_stance_quote": "“Stand by my own… refuse whatever does not correspond to myself.”",
+"scoring_guidance": {
+"0_1": "Perceived injustice with reactive aggression.",
+"2_3": "Some fairness; boundaries inconsistently held.",
+"4_5": "Stable sense of justice with consistent ethical self-positioning."
+}
+},
+{
+"id": 9,
+"cornerstone": "Person (E3)",
+"name": "Appreciation",
+"fundamental_question": "“I am myself—may I be like this?”",
+"anchor_quotes": [
+"“For what am I appreciated—for what can I appreciate myself?… The sum of these experiences builds… the self-esteem.”"
+],
+"indicators_present": [
+"States recognition/value; “authenticity… relief… self-respect.”",
+"Entitled to be what I am; stands by uniqueness."
+],
+"indicators_absent": [
+"Shame/hiding; histrionic symptoms/personality disturbance.",
+"Aggressive/freezing patterns when unmet."
+],
+"active_stance_quote": "“Say ‘yes to myself’… encounter… delimitate myself.”",
+"scoring_guidance": {
+"0_1": "Devaluation/shame; lack of appreciation.",
+"2_3": "Mixed or externally dependent appreciation.",
+"4_5": "Stable appreciation (self and others) with self-respect."
+}
+},
+{
+"id": 10,
+"cornerstone": "Meaning (E4)",
+"name": "Field of activity",
+"fundamental_question": "“I am there—for what is it good?”",
+"anchor_quotes": [
+"“Is there a place where I feel needed, where I can be productive?”",
+"If fulfilled: capable of “dedication and action.”"
+],
+"indicators_present": [
+"Clear arena of contribution; feels needed/productive.",
+"Acts with dedication and action."
+],
+"indicators_absent": [
+"“Emptiness, frustration, even despair… frequently addiction.”",
+"Loss of interest; apathy."
+],
+"active_stance_quote": "“Examine whether what I am doing is really a good thing.”",
+"scoring_guidance": {
+"0_1": "No felt task/place; emptiness/despair/addictive drift.",
+"2_3": "Tentative/sporadic roles or activities.",
+"4_5": "Stable field with sustained contribution and dedication."
+}
+},
+{
+"id": 11,
+"cornerstone": "Meaning (E4)",
+"name": "Structural context",
+"fundamental_question": "“I am there—for what is it good?”",
+"anchor_quotes": [
+"“Do I see and experience myself in a larger context that provides structure and orientation… Where I want to be integrated?”",
+"Illustrative stance: “I am working at a cathedral.”"
+],
+"indicators_present": [
+"Frames activity within wider purposes/communities; orientation/integration.",
+"Brings self “into agreement with the situation.”"
+],
+"indicators_absent": [
+"Freezing forms: fatalism/apathy/nihilism.",
+"Planless day-to-day attitude."
+],
+"active_stance_quote": "“Attitude of openness… ‘What does this hour want from me…?’”",
+"scoring_guidance": {
+"0_1": "No larger frame; apathy/nihilism.",
+"2_3": "Some context awareness without consistent integration.",
+"4_5": "Clear, lived orientation within a larger whole."
+}
+},
+{
+"id": 12,
+"cornerstone": "Meaning (E4)",
+"name": "Value to be realized (future)",
+"fundamental_question": "“I am there—for what is it good?”",
+"anchor_quotes": [
+"“Is there anything that should still be realized in my life?”",
+"Meaning = “the most valuable, realistic possibility… for which I feel I should decide myself.”"
+],
+"indicators_present": [
+"Names a specific to-be-realized value/possibility.",
+"Lives a phenomenological “attitude of openness” to what is asked now."
+],
+"indicators_absent": [
+"Emptiness/despair; provisional, planless stance; addictions.",
+"Fatalism/nihilism when meaning fails."
+],
+"active_stance_quote": "“What does this hour want from me, how shall I respond?… examine whether what I am doing is really a good thing.”",
+"scoring_guidance": {
+"0_1": "No valued possibility; emptiness/despair/addiction themes.",
+"2_3": "Vague or unstable aims; goodness not examined.",
+"4_5": "Specific, realistic value embraced with reflective openness."
+}
+}
+],
+"negative_indicators_and_coping": {
+"E1_World": "If unmet → “restlessness, insecurity and fear”; coping: “avoidance or flight… overactivity… destructive aggression… denial.”",
+"E2_Life": "If unmet → “longing… coldness… depression”; basic coping: “regression.”",
+"E3_Person": "If unmet → “solitude… shame… (histrionic symptoms/personality disorders).” Typical aggression: “indignation, annoyance – anger, reproach.”",
+"E4_Meaning": "If unmet → “emptiness, frustration, even despair… frequently addiction.” Freezing forms: “fatalism… apathy… nihilism.”"
+},
+"apa_citations": [
+"Längle, A. (2002). Existential fundamental motivation. In Motivation, Consciousness and Self-Regulation (pp. 27–42). Nova Science Publishers.",
+"Längle, A. (2011). The Existential Fundamental Motivations Structuring the Motivational Process. In D. A. Leontiev (Ed.), Motivation, Consciousness and Self-Regulation (pp. 27–42). Nova Science Publishers."
+]
+}

@@ -1,0 +1,1057 @@
+{
+  "codebook_metadata": {
+    "title": "Comprehensive Codebook for the 12 Fundamental Existential Prerequisites (12FEP)",
+    "version": "1.0 - Merged Edition",
+    "author": "Based on the works of Alfried Längle",
+    "date_created": "2025",
+    "theoretical_foundation": "Existential Analysis - Four Existential Fundamental Motivations",
+    "purpose": "Score participant testimony from psychological interventions on 12 existential prerequisites derived from Längle's four Existential Fundamental Motivations (EFMs). All constructs, quotes, and language are drawn from Längle's works.",
+    "citations": [
+      {
+        "apa_citation": "Längle, A. (2002). Existential fundamental motivation. Paper read at 18th World Congress of Psychotherapy in Trondheim, Norway, August 16, 2002. International Federation of Psychotherapy.",
+        "reference_id": "Längle2002"
+      },
+      {
+        "apa_citation": "Längle, A. (2011). The existential fundamental motivations structuring the motivational process. In D. A. Leontiev (Ed.), Motivation, consciousness and self-regulation (pp. 27-42). Nova Science Publishers, Inc.",
+        "reference_id": "Längle2011"
+      }
+    ]
+  },
+  "instructions_for_llm": {
+    "overview": "This codebook is designed for Large Language Models (LLMs) to score participant testimony on the 12 Fundamental Existential Prerequisites (12FEP) developed by Alfried Längle. Each prerequisite is scored on a scale from 0 (absent) to 5 (fully present).",
+    "core_principles": [
+      "All scoring must be based exclusively on Längle's theoretical framework as presented in the source documents",
+      "Use only concepts and phrasing grounded in Längle's texts; when justifying any score, include a short participant excerpt and a direct Längle quote with citation",
+      "Prioritize the dialogical and phenomenological framing of motivation across the four cornerstones (world, life, person, meaning)",
+      "Analyze the participant's testimony for evidence of their 'emotionally free (decided) stand' or 'Inner Consent' (Längle, 2002)",
+      "Consider the dialogical nature of existence: 'Motivation is a process of continuous exchange between the subject—individual—and the environment' (Längle, 2011, p. 1)"
+    ],
+    "critical_concepts": {
+      "inner_consent": "Look for evidence of active engagement, not mere passive presence. Längle emphasizes: 'Still, it is not enough to have relationships, time and closeness. My own consent, my active participation are asked for' (Längle, 2002, p. 6)",
+      "meaning_definition": "Treat meaning as 'the most valuable, realistic possibility of the given situation, for which I feel I should decide myself,' and apply this definition when identifying forward-looking value commitments",
+      "active_participation": "Each prerequisite requires not just finding the condition but accepting and actively engaging with it through specific stances: accept/endure; turn to/consent to being touched; say yes to self/encounter/delimit; openness to what life asks"
+    },
+    "scoring_scale": {
+      "range": "0–5",
+      "anchor_descriptions": {
+        "0": "Not present; opposite experience predominates (e.g., 'restlessness, insecurity and fear'; 'longing… coldness… depression'; 'solitude… shame'; 'emptiness… despair'). Complete absence of inner consent.",
+        "1": "Barely present; fleeting or fragile signs; coping reactions dominate (e.g., 'avoidance or flight… overactivity… destructive aggression… denial'; 'regression'). Inner consent largely absent.",
+        "2": "Partly present; intermittent signs without stable appropriation ('it is not enough to find… I also have to… accept'). Struggle with inner consent.",
+        "3": "Moderately present; clear signs plus some active stance (e.g., 'to accept… and to endure'; 'turn to… get into touch'). Partial inner consent.",
+        "4": "Strongly present; consistent experience and appropriation with minor gaps. Good inner consent with minimal challenges.",
+        "5": "Fully present; stable experience and corresponding active stance (e.g., 'to be there and not to flee'; 'consent to being touched'; 'say \"yes to myself\"'; 'attitude of openness… \"What does this hour want from me?\"'). Unbroken inner consent; 'deepest and freest emotions correspond' to intentions."
+      },
+      "simplified_scoring_guidance": {
+        "0_1": "No felt prerequisite; fear/longing/solitude/emptiness dominates; flight/avoidance/regression patterns. Reliant on basic coping reactions/deficits.",
+        "2_3": "Some prerequisite experiences without stable acceptance or reliance. Active in the 'continuous dialogue (preoccupation)'; partial 'inner agreement' and 'decisiveness' mobilization.",
+        "4_5": "Stable prerequisite + explicit acceptance with active stance ('to be there and not to flee'). Unbroken 'Inner Consent'; reflects a 'fulfilled existence'."
+      }
+    },
+    "scoring_instructions": [
+      "When evidence is mixed, score the lower anchor unless the participant shows the relevant active stance",
+      "Use negative indicators and coping patterns to justify low scores (0–1)",
+      "Coping reactions are key indicators of prerequisite absence or threat. Each fundamental motivation has specific coping reactions that signal distress",
+      "Look for the specific active participation required for each prerequisite (detailed in each item)",
+      "Consider phenomenological outcomes: positive outcomes (trust, fundamental value, self-esteem, fulfillment) indicate presence; negative outcomes (anxiety, depression, personality disturbance, addiction) indicate absence"
+    ],
+    "evidence_requirements": [
+      "Extract direct quotes from participant testimony that support the score",
+      "Identify which specific Längle criterion is being assessed (with page citation)",
+      "Note presence, absence, or type of coping reactions relevant to this prerequisite",
+      "Reference expected positive outcomes (trust, fundamental value, self-esteem, fulfillment) or negative outcomes (anxiety, depression, personality disturbance, addiction)",
+      "Comment on whether participant is actively engaging with prerequisite or passively experiencing it",
+      "Match participant excerpts to presence or absence indicators provided in the codebook"
+    ],
+    "validation_checks": [
+      "Internal consistency: Scores within each fundamental motivation should show logical patterns",
+      "Sequential logic: Later motivations build on earlier ones. Very high scores in 4th motivation with very low scores in 1st-3rd should be carefully examined",
+      "Coping reaction alignment: Presence of specific coping reactions should align with lower scores",
+      "Active stance verification: High scores (4-5) require clear evidence of the active participation stance, not just passive presence"
+    ]
+  },
+  "justification_output_format": {
+    "description": "For each prerequisite, LLMs should provide the following structured output:",
+    "required_fields": [
+      "prerequisite_id",
+      "prerequisite_name",
+      "score_0_to_5",
+      "participant_excerpt",
+      "presence_or_absence_indicators_matched",
+      "längle_anchor_quote_with_citation",
+      "coping_reactions_analysis",
+      "phenomenological_outcomes",
+      "active_participation_assessment",
+      "rationale_linking_excerpt_to_theory"
+    ],
+    "example": {
+      "prerequisite_id": 5,
+      "prerequisite_name": "Time (E2)",
+      "score_0_to_5": 5,
+      "participant_excerpt": "I protect Friday evenings for my kids—nothing overrides that.",
+      "presence_or_absence_indicators_matched": [
+        "Deliberately taking time for what is valuable",
+        "Consistent life-time investment",
+        "Do I take time for valuable things, worthy to spend my time for?"
+      ],
+      "längle_anchor_quote_with_citation": "'What do I take time for?… To take time for something means to give away a part of one's life.' (Längle, 2002, p. 6)",
+      "coping_reactions_analysis": "No coping reactions present. No evidence of 'shallowness of daily life' or 'activism in the form of overprotection or achievement' (Längle, 2002, p. 6).",
+      "phenomenological_outcomes": "Evidence of 'fundamental value of life' being present through deliberate time investment in valued relationships.",
+      "active_participation_assessment": "Clear active engagement: participant is deliberately 'giving away a part of one's life' (Längle, 2002, p. 6) through non-negotiable practice.",
+      "rationale_linking_excerpt_to_theory": "The participant's non-negotiable practice exemplifies giving away life-time to valuable relationships. This demonstrates both finding time AND the active consent required by Längle: 'My own consent, my active participation are asked for' (Längle, 2002, p. 6). The deliberate protection shows inner consent and active time-giving to what is valuable."
+    }
+  },
+  "fundamental_motivations": [
+    {
+      "motivation_number": 1,
+      "motivation_name": "Being in the World (E1)",
+      "short_name": "World",
+      "existential_question": "I am – can I be?",
+      "theoretical_foundation": {
+        "quote": "The first condition arises from the simple fact that I am here at all, that I am in the world. But where to go from here? Can I cope with my being there?",
+        "citation": "Längle, 2002, p. 4"
+      },
+      "three_prerequisites_required": {
+        "description": "This demands three things: protection, space and support.",
+        "citation": "Längle, 2002, p. 5"
+      },
+      "positive_outcome_when_present": {
+        "outcome": "fundamental trust",
+        "description": "I will be able to feel trust in the world and confidence in myself, maybe even faith in God. The sum of these experiences of trust is the fundamental trust",
+        "citation": "Längle, 2002, p. 5"
+      },
+      "negative_outcome_when_absent": {
+        "outcome": "anxiety",
+        "description": "restlessness, insecurity and fear",
+        "citation": "Längle, 2002, p. 5",
+        "pathological": "fear and anxiety arise",
+        "citation_pathological": "Längle, 2002, p. 5"
+      },
+      "coping_reactions_when_threatened": [
+        {
+          "type": "basic_reaction",
+          "description": "avoidance or flight",
+          "citation": "Längle, 2002, p. 5"
+        },
+        {
+          "type": "activism",
+          "description": "overactivity like fighting bacteria by compulsive washing",
+          "citation": "Längle, 2002, p. 5"
+        },
+        {
+          "type": "aggression",
+          "description": "destructive aggression such as hate",
+          "citation": "Längle, 2002, p. 5"
+        },
+        {
+          "type": "freezing",
+          "description": "denial or pretending to be non-existent",
+          "citation": "Längle, 2002, p. 5"
+        }
+      ],
+      "active_participation_general": {
+        "quote": "My active part in this fundamental condition of being there is to accept the positive sides and to endure the negative ones",
+        "citation": "Längle, 2002, p. 5"
+      },
+      "prerequisites": [
+        {
+          "prerequisite_id": 1,
+          "name": "Protection",
+          "cornerstone": "World (E1)",
+          "fundamental_question": "I am – can I be?",
+          "definition": {
+            "question": "Do I enjoy protection, acceptance, do I feel at home somewhere?",
+            "citation": "Längle, 2002, p. 5"
+          },
+          "theoretical_foundation": {
+            "quote": "In order to be there, it is not enough to find protection, space and support – I also have to seize these conditions, to make a decision in their favour, to accept them",
+            "citation": "Längle, 2002, p. 5"
+          },
+          "active_participation_required": {
+            "quote": "to accept the positive sides and to endure the negative ones",
+            "citation": "Längle, 2002, p. 5",
+            "specific_stance": "'to be there' and not to flee",
+            "full_quote": "to be ready to occupy the space, to rely on the support and to trust the protection; in short 'to be there' and not to flee",
+            "citation_stance": "Längle, 2002, p. 5"
+          },
+          "indicators_of_presence": [
+            "Participant expresses feeling safe in their environment",
+            "Participant describes acceptance by others",
+            "Participant mentions feeling 'at home' somewhere",
+            "Speaks of acceptance/belonging; 'feel at home'",
+            "Describes 'trust in the world and confidence in myself'",
+            "'To be there' and 'not to flee' (Längle, 2002, p. 5)",
+            "Trust in the world (Längle, 2011, p. 5)"
+          ],
+          "indicators_of_absence": [
+            "Reports 'restlessness, insecurity and fear' (Längle, 2002, p. 5)",
+            "Relies on coping like avoidance/flight when conditions unmet",
+            "Insecurity and fear (Längle, 2002, p. 5)",
+            "Basic reaction: avoidance or flight (Längle, 2002, p. 5)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly expresses feeling safe, protected, and at home. Strong evidence of trust in the world and confidence in myself, maybe even faith in God (Längle, 2002, p. 5). Robust capacity to accept the positive sides (Längle, 2002, p. 5) and demonstrates 'to be there' and not to flee (Längle, 2002, p. 5). No avoidance or flight reactions."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally feels safe and accepted. Good trust in the world. Solid capacity to accept positive sides. Generally able 'to be there' with minimal flight reactions."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some safety and acceptance experiences with limitations. Partial trust. Mixed capacity to accept and be there. Some mild coping reactions (occasional avoidance or overactivity)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited safety or acceptance. Weak trust with growing anxiety. Clear coping reactions such as avoidance or flight (Längle, 2002, p. 5) or overactivity (Längle, 2002, p. 5). Notable restlessness, insecurity and fear (Längle, 2002, p. 5)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare or fleeting safety. Significant insecurity. Strong coping reactions including destructive aggression such as hate or denial (Längle, 2002, p. 5). Predominant fear and anxiety (Längle, 2002, p. 5)."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No felt protection or safety. Pervasive restlessness, insecurity and fear (Längle, 2002, p. 5). Failed coping reactions with sustained avoidance/flight, destructive aggression, or denial (Längle, 2002, p. 5). Complete inability 'to be there' (Längle, 2002, p. 5)."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 2,
+          "name": "Space",
+          "cornerstone": "World (E1)",
+          "fundamental_question": "I am – can I be?",
+          "definition": {
+            "question": "Do I have enough space for being there?",
+            "citation": "Längle, 2002, p. 5"
+          },
+          "theoretical_foundation": {
+            "quote": "In order to be there, it is not enough to find protection, space and support – I also have to seize these conditions, to make a decision in their favour, to accept them",
+            "citation": "Längle, 2002, p. 5"
+          },
+          "active_participation_required": {
+            "quote": "To accept means to be ready to occupy the space",
+            "citation": "Längle, 2002, p. 5",
+            "full_quote": "to be ready to occupy the space, to rely on the support and to trust the protection; in short 'to be there' and not to flee",
+            "citation_full": "Längle, 2002, p. 5"
+          },
+          "indicators_of_presence": [
+            "Participant expresses having room to exist and act",
+            "States room to exist/act; readiness to 'occupy the space'",
+            "Describes 'enough space for being there'",
+            "Ready to occupy the space (Längle, 2002, p. 5)",
+            "'To 'let each other be, because there is still enough space for me' (Längle, 2011, p. 5)"
+          ],
+          "indicators_of_absence": [
+            "Participant feels constrained or withdrawing",
+            "Constrained, withdrawing; flight/overactivity coping",
+            "Restlessness (Längle, 2002, p. 5)",
+            "Overactivity/compulsive washing (Längle, 2002, p. 5)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly has and occupies sufficient space. Strong evidence of being ready to occupy the space (Längle, 2002, p. 5). Robust capacity to 'let each other be, because there is still enough space for me' (Längle, 2011, p. 5). No withdrawal or overactivity."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally has adequate space. Good readiness to occupy it. Solid capacity to coexist without space anxiety. Minimal overactivity."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some space available but with limitations. Partial readiness to occupy. Mixed capacity to tolerate others' space. Some mild coping reactions (occasional restlessness or overactivity)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited space available. Weak readiness to occupy. Clear coping reactions such as overactivity like fighting bacteria by compulsive washing (Längle, 2002, p. 5). Notable restlessness (Längle, 2002, p. 5)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare sense of adequate space. Significant constraint. Strong coping reactions including avoidance or flight (Längle, 2002, p. 5) or compulsive overactivity."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No perceived room to exist. Pervasive constraint and restlessness (Längle, 2002, p. 5). Failed coping reactions with sustained withdrawal/flight or severe overactivity (Längle, 2002, p. 5). Complete inability to occupy space."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 3,
+          "name": "Support",
+          "cornerstone": "World (E1)",
+          "fundamental_question": "I am – can I be?",
+          "definition": {
+            "question": "Where do I find support in my life?",
+            "citation": "Längle, 2002, p. 5"
+          },
+          "theoretical_foundation": {
+            "quote": "In order to be there, it is not enough to find protection, space and support – I also have to seize these conditions, to make a decision in their favour, to accept them",
+            "citation": "Längle, 2002, p. 5"
+          },
+          "active_participation_required": {
+            "quote": "the force to let be whatever is difficult, menacing or unalterable and to 'tolerate' what cannot be changed",
+            "citation": "Längle, 2002, p. 5",
+            "specific_stance": "to rely on the support",
+            "full_quote": "to be ready to occupy the space, to rely on the support and to trust the protection; in short 'to be there' and not to flee",
+            "citation_stance": "Längle, 2002, p. 5"
+          },
+          "indicators_of_presence": [
+            "Participant identifies supports (people, structures, faith)",
+            "Identifies and relies on supports (people, structures, faith)",
+            "Describes finding support in life",
+            "To 'endure' what is difficult or unalterable (Längle, 2002, p. 5)",
+            "The force to 'tolerate' what cannot be changed (Längle, 2002, p. 5)"
+          ],
+          "indicators_of_absence": [
+            "Participant expresses groundlessness",
+            "Groundlessness; escalating fear/anxiety when coping fails",
+            "Lacking the 'fundamental trust' (Längle, 2011, p. 5)",
+            "Inability to 'endure' the negative sides (Längle, 2002, p. 5)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly identifies and relies on supports. Strong evidence of the force to let be whatever is difficult, menacing or unalterable and to 'tolerate' what cannot be changed (Längle, 2002, p. 5). Robust capacity to rely on the support (Längle, 2002, p. 5) and to endure the negative sides (Längle, 2002, p. 5). No fear or anxiety."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally identifies and uses supports. Good capacity to endure and tolerate. Solid reliance on support. Minimal anxiety when challenged."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some supports identified with limitations. Partial capacity to endure and tolerate. Mixed reliance on support. Some mild coping reactions (occasional anxiety or avoidance)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited supports identified. Weak capacity to endure or tolerate. Clear coping reactions such as avoidance or flight (Längle, 2002, p. 5). Notable fear and anxiety arising (Längle, 2002, p. 5)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare or fragile supports. Significant difficulty enduring. Strong coping reactions including destructive aggression or denial (Längle, 2002, p. 5). Predominant anxiety."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No support felt. Pervasive groundlessness. Failed coping reactions with sustained inability to endure (Längle, 2002, p. 5). Complete lack of fundamental trust (Längle, 2011, p. 5) with pervasive fear and anxiety (Längle, 2002, p. 5)."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "motivation_number": 2,
+      "motivation_name": "Liking Life (E2)",
+      "short_name": "Life",
+      "existential_question": "I am alive – do I like this fact?",
+      "theoretical_foundation": {
+        "quote": "The second condition that motivates me is the fact that I am alive. This sounds trivial but it is not. Do I like to be alive? Not everybody does. Do I enjoy living?",
+        "citation": "Längle, 2002, p. 6"
+      },
+      "three_prerequisites_required": {
+        "description": "In order to seize my life, to love it, I need three things: relationship, time and closeness.",
+        "citation": "Längle, 2002, p. 6"
+      },
+      "positive_outcome_when_present": {
+        "outcome": "fundamental value of life",
+        "description": "If I turn toward life like this, I will be able to develop the feeling of value towards things, other people and myself. This is what we call the fundamental value of life",
+        "citation": "Längle, 2002, p. 6"
+      },
+      "negative_outcome_when_absent": {
+        "outcome": "depression",
+        "description": "longing, then coldness and finally depression",
+        "citation": "Längle, 2002, p. 6"
+      },
+      "coping_reactions_when_threatened": [
+        {
+          "type": "basic_reaction",
+          "description": "regression",
+          "citation": "Längle, 2002, p. 6"
+        },
+        {
+          "type": "activism",
+          "description": "activism in the form of overprotection or achievement",
+          "citation": "Längle, 2002, p. 6"
+        },
+        {
+          "type": "aggression",
+          "description": "fury, rage to 'agitate the other person'",
+          "citation": "Längle, 2002, p. 6"
+        }
+      ],
+      "active_participation_general": {
+        "quote": "Still, it is not enough to have relationships, time and closeness. My own consent, my active participation are asked for",
+        "citation": "Längle, 2002, p. 6"
+      },
+      "prerequisites": [
+        {
+          "prerequisite_id": 4,
+          "name": "Relationship",
+          "cornerstone": "Life (E2)",
+          "fundamental_question": "I am alive – do I like this fact?",
+          "definition": {
+            "question": "Do I have relationships, in which I feel closeness… and in which I experience community?",
+            "citation": "Längle, 2002, p. 6"
+          },
+          "theoretical_foundation": {
+            "quote": "In order to seize my life, to love it, I need three things: relationship, time and closeness.",
+            "citation": "Längle, 2002, p. 6"
+          },
+          "active_participation_required": {
+            "quote": "I seize life, engage in it, when I turn to other people, when I enter into touch with what is around me, when I get into touch with myself, when I allow the touching of each other",
+            "citation": "Längle, 2002, p. 6",
+            "specific_stance": "turn to… get into touch",
+            "full_quote": "I seize life… when I turn to other people… get into touch",
+            "citation_stance": "Längle, 2002, p. 6"
+          },
+          "indicators_of_presence": [
+            "Participant describes meaningful relationships",
+            "Participant turns toward others and engages",
+            "Turns toward others and engages ('turn to… get into touch')",
+            "'I seize life, engage in it, when I turn to other people' (Längle, 2002, p. 6)",
+            "Experience of worth and worthlessness (Längle, 2011, p. 6)"
+          ],
+          "indicators_of_absence": [
+            "Participant describes isolation or coldness",
+            "Isolation/coldness/depressive tone",
+            "'Longing… then coldness and finally depression' (Längle, 2002, p. 6)",
+            "Negligence in one's life style (Längle, 2002, p. 6)",
+            "Basic coping reaction: regression (Längle, 2002, p. 6)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly has meaningful relationships with felt closeness and community. Strong evidence of turning to other people and getting into touch (Längle, 2002, p. 6). Robust capacity to allow the touching of each other (Längle, 2002, p. 6). No isolation, longing, or coldness."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally has good relationships. Good turning toward others. Solid engagement and closeness. Minimal loneliness or withdrawal."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some relationships with limitations. Partial turning toward others. Mixed closeness and engagement. Some mild coping reactions (occasional longing or regression)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited relationships. Weak turning toward others. Clear coping reactions such as regression (Längle, 2002, p. 6) or negligence in one's life style (Längle, 2002, p. 6). Notable longing and coldness (Längle, 2002, p. 6)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare or superficial relationships. Significant isolation. Strong coping reactions including fury, rage or activism (Längle, 2002, p. 6). Predominant coldness moving toward depression (Längle, 2002, p. 6)."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No meaningful relationships. Pervasive isolation and longing… then coldness and finally depression (Längle, 2002, p. 6). Failed coping reactions with sustained regression (Längle, 2002, p. 6). Complete inability to turn to others or enter into touch."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 5,
+          "name": "Time",
+          "cornerstone": "Life (E2)",
+          "fundamental_question": "I am alive – do I like this fact?",
+          "definition": {
+            "question": "What do I take time for?… To take time for something means to give away a part of one's life.",
+            "citation": "Längle, 2002, p. 6"
+          },
+          "theoretical_foundation": {
+            "quote": "Do I take time for valuable things, worthy to spend my time for? This means to engage in relationships for which I spend time",
+            "citation": "Längle, 2002, p. 6"
+          },
+          "active_participation_required": {
+            "quote": "To take time for something means to give away a part of one's life",
+            "citation": "Längle, 2002, p. 6"
+          },
+          "indicators_of_presence": [
+            "Participant deliberately gives time to valuable things",
+            "Deliberately gives time to valuable things; protects time for what is 'worthy'",
+            "Describes taking time for valuable things",
+            "'Do I take time for valuable things, worthy to spend my time for?' (Längle, 2002, p. 6)",
+            "Engaging in relationships for which I spend time (Längle, 2002, p. 6)"
+          ],
+          "indicators_of_absence": [
+            "Life feels stale via 'shallowness of daily life'",
+            "Life feels stale via 'shallowness of daily life' / lifestyle negligence",
+            "Shallowness of daily life (Längle, 2002, p. 6)",
+            "Activism in the form of overprotection or achievement (Längle, 2002, p. 6)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly takes time for valuable things, worthy to spend time for (Längle, 2002, p. 6). Strong evidence of giving away a part of one's life (Längle, 2002, p. 6) to what is valuable. Robust engagement in relationships for which time is spent. No shallowness or activism."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally takes time for valuable things. Good life-time investment. Solid engagement in worthy relationships. Minimal time-scarcity complaints."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some time for valuable things with limitations. Partial life-time investment. Mixed engagement in relationships. Some mild coping reactions (occasional busyness or shallow activities)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited time for valuable things. Weak life-time investment. Clear coping reactions such as activism in the form of overprotection or achievement (Längle, 2002, p. 6). Notable shallowness of daily life (Längle, 2002, p. 6)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare time for valuable things. Significant shallowness. Strong coping reactions including regression or excessive activism (Längle, 2002, p. 6). Predominant staleness and coldness."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No time given to valuable things. Pervasive shallowness of daily life (Längle, 2002, p. 6). Failed coping reactions with sustained activism (Längle, 2002, p. 6) or complete withdrawal. Depression arising from lack of life engagement."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 6,
+          "name": "Closeness",
+          "cornerstone": "Life (E2)",
+          "fundamental_question": "I am alive – do I like this fact?",
+          "definition": {
+            "question": "Can I feel close… Can I admit the closeness of someone else?",
+            "citation": "Längle, 2002, p. 6"
+          },
+          "theoretical_foundation": {
+            "quote": "If life is to make me move freely, my consent to being touched (to feeling) is necessary",
+            "citation": "Längle, 2002, p. 6"
+          },
+          "active_participation_required": {
+            "quote": "My consent to being touched (to feeling) is necessary",
+            "citation": "Längle, 2002, p. 6",
+            "specific_stance": "consent to being touched",
+            "full_quote": "This 'to turn to' will make life vibrate within me",
+            "citation_stance": "Längle, 2002, p. 6"
+          },
+          "indicators_of_presence": [
+            "Participant describes emotional openness and being moved",
+            "Readiness to be moved ('This 'to turn to' will make life vibrate within me')",
+            "Describes feeling close and admitting closeness",
+            "'Willingness to let myself be touched' by what is valuable (Längle, 2002, p. 6)",
+            "'To turn to' will 'make life vibrate within me' (Längle, 2002, p. 6)"
+          ],
+          "indicators_of_absence": [
+            "Participant describes emotional numbing or withdrawal",
+            "Emotional numbing/withdrawal; regression patterns",
+            "Basic coping is 'regression'; if unresolved, depression",
+            "Aggression: fury, rage to 'agitate the other person' (Längle, 2002, p. 6)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly can feel close and admit the closeness of someone else (Längle, 2002, p. 6). Strong evidence of consent to being touched (to feeling) (Längle, 2002, p. 6). Robust capacity for life to vibrate within me (Längle, 2002, p. 6). No emotional numbing or rage."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally feels closeness and can be touched. Good consent to feeling. Solid emotional vitality. Minimal withdrawal or rage."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some closeness with limitations. Partial consent to being touched. Mixed emotional vitality. Some mild coping reactions (occasional withdrawal or guarded feelings)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited closeness or feeling. Weak consent to being touched. Clear coping reactions such as regression (Längle, 2002, p. 6). Notable emotional numbing or coldness (Längle, 2002, p. 6)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare closeness or emotional movement. Significant withdrawal or numbing. Strong coping reactions including fury, rage (Längle, 2002, p. 6) or severe regression. Predominant coldness moving toward depression."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No closeness or emotional vitality. Pervasive longing… then coldness and finally depression (Längle, 2002, p. 6). Failed coping reactions with sustained regression (Längle, 2002, p. 6). Complete inability to consent to being touched or to let life vibrate within."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "motivation_number": 3,
+      "motivation_name": "Being a Person (E3)",
+      "short_name": "Person",
+      "existential_question": "I am myself – may I be like this?",
+      "theoretical_foundation": {
+        "quote": "The third condition is rooted in the fact that I am myself. And the question arises: may I be like this? Because the third existential motivation is the motivation to be the person I am. It is about self-esteem, self-worth, being seen, authentic being",
+        "citation": "Längle, 2002, p. 7"
+      },
+      "three_prerequisites_required": {
+        "description": "To be myself I need three things: attention, justice and appreciation.",
+        "citation": "Längle, 2002, p. 7"
+      },
+      "positive_outcome_when_present": {
+        "outcome": "self-esteem",
+        "description": "The sum of these experiences builds up another cornerstone: namely, the self-esteem",
+        "citation": "Längle, 2002, p. 7"
+      },
+      "negative_outcome_when_absent": {
+        "outcome": "personality disturbance",
+        "description": "solitude and shame... If unresolved (frustrated) it will lead to histrionic symptoms like acting out oneself and, chronically, to personality disorders",
+        "citation": "Längle, 2002, p. 7"
+      },
+      "coping_reactions_when_threatened": [
+        {
+          "type": "basic_reaction",
+          "description": "distancing oneself",
+          "citation": "Längle, 2002, p. 7"
+        },
+        {
+          "type": "activism",
+          "description": "stubborn insistence and leading a functional life",
+          "citation": "Längle, 2002, p. 7"
+        },
+        {
+          "type": "aggression",
+          "description": "indignation, annoyance – anger, reproach",
+          "citation": "Längle, 2002, p. 7"
+        },
+        {
+          "type": "freezing",
+          "description": "dissociation/splitting of emotion and cognition",
+          "citation": "Längle, 2002, p. 7"
+        }
+      ],
+      "active_participation_general": {
+        "quote": "My own active involvement will be to say 'yes to myself', which presupposes the encounter, and will lead me to delimitate myself",
+        "citation": "Längle, 2002, p. 7"
+      },
+      "prerequisites": [
+        {
+          "prerequisite_id": 7,
+          "name": "Attention",
+          "cornerstone": "Person (E3)",
+          "fundamental_question": "I am myself – may I be like this?",
+          "definition": {
+            "question": "By whom am I seen? Who considers my uniqueness and respects my boundaries?",
+            "citation": "Längle, 2002, p. 7"
+          },
+          "theoretical_foundation": {
+            "quote": "Encounter represents the necessary bridge between both 'I's'. In the encounter I find my own 'I' in the 'you'",
+            "citation": "Längle, 2002, p. 7"
+          },
+          "active_participation_required": {
+            "quote": "Say 'yes to myself'… encounter… delimitate myself",
+            "citation": "Längle, 2002, p. 7",
+            "specific_stance": "say 'yes to myself'",
+            "full_quote": "My own active involvement will be to say 'yes to myself', which presupposes the encounter, and will lead me to delimitate myself",
+            "citation_stance": "Längle, 2002, p. 7"
+          },
+          "indicators_of_presence": [
+            "Participant describes being seen by others",
+            "Feels seen and boundary-respected; participates in genuine encounter",
+            "Describes someone considering uniqueness and respecting boundaries",
+            "'Demarcate myself' and to 'stand by my own' (Längle, 2002, p. 7)",
+            "'Encounter' makes me find my 'own 'I' in the 'you'' (Längle, 2002, p. 7)"
+          ],
+          "indicators_of_absence": [
+            "Participant feels unseen or boundaries violated",
+            "Unseen/violated boundaries; shame/withdrawal",
+            "'Solitude… need to hide behind the shame' (Längle, 2002, p. 7)",
+            "Solitude (Längle, 2002, p. 7)",
+            "Basic reaction: distancing oneself (Längle, 2002, p. 7)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly seen by others with uniqueness considered and boundaries respected. Strong evidence of encounter and finding my own 'I' in the 'you' (Längle, 2002, p. 7). Robust capacity to say 'yes to myself' and delimitate myself (Längle, 2002, p. 7). No solitude or shame."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally seen and boundaries respected. Good encounter experiences. Solid self-affirmation and self-delimitation. Minimal solitude or shame."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some being-seen experiences with limitations. Partial encounter and self-affirmation. Mixed boundary respect. Some mild coping reactions (occasional distancing or discomfort)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited being-seen or boundary respect. Weak encounter. Clear coping reactions such as distancing oneself (Längle, 2002, p. 7) or stubborn insistence (Längle, 2002, p. 7). Notable solitude and shame (Längle, 2002, p. 7)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare being-seen or boundary respect. Significant solitude. Strong coping reactions including indignation, anger or dissociation (Längle, 2002, p. 7). Predominant need to hide behind the shame (Längle, 2002, p. 7)."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "Not seen; boundaries violated. Pervasive solitude and shame (Längle, 2002, p. 7). Failed coping reactions leading to histrionic symptoms like acting out oneself and personality disorders (Längle, 2002, p. 7). Complete inability to say yes to self or find 'I' in the 'you'."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 8,
+          "name": "Justice",
+          "cornerstone": "Person (E3)",
+          "fundamental_question": "I am myself – may I be like this?",
+          "definition": {
+            "question": "Do people do me justice?",
+            "citation": "Längle, 2002, p. 7"
+          },
+          "theoretical_foundation": {
+            "quote": "To be myself I need three things: attention, justice and appreciation",
+            "citation": "Längle, 2002, p. 7"
+          },
+          "active_participation_required": {
+            "quote": "Stand by my own… refuse whatever does not correspond to myself",
+            "citation": "Längle, 2002, p. 7",
+            "full_quote": "The active part is to demarcate myself and to stand by my own, and in another form, to refuse whatever does not correspond to me",
+            "citation_full": "Längle, 2002, p. 7"
+          },
+          "indicators_of_presence": [
+            "Participant describes being treated fairly",
+            "Speaks to fairness/right to be; sets boundaries congruently",
+            "Describes people doing justice",
+            "The active part is to 'refuse whatever does not correspond to me' (Längle, 2002, p. 7)",
+            "Regret as one of the two means to live authenticity (Längle, 2002, p. 7)"
+          ],
+          "indicators_of_absence": [
+            "Participant describes unfair treatment",
+            "Perceived injustice with reactive aggression",
+            "Typical aggression: 'indignation, annoyance – anger, reproach' (Längle, 2002, p. 7)",
+            "Activism: stubborn insistence and leading a functional life (Längle, 2002, p. 7)",
+            "Need to hide behind the shame (Längle, 2011, p. 7)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly experiences people doing justice. Strong evidence of standing by my own and refusing whatever does not correspond to me (Längle, 2002, p. 7). Robust capacity to demarcate myself (Längle, 2002, p. 7) with ethical boundaries. No reactive anger or shame."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally treated justly. Good capacity to stand by own and refuse what doesn't correspond. Solid self-demarcation. Minimal anger or injustice feelings."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some justice experiences with limitations. Partial standing by own and boundary-setting. Mixed self-demarcation. Some mild coping reactions (occasional annoyance or stubborn insistence)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited justice experiences. Weak boundary-setting. Clear coping reactions such as stubborn insistence and leading a functional life (Längle, 2002, p. 7) or distancing oneself (Längle, 2002, p. 7). Notable indignation, annoyance – anger, reproach (Längle, 2002, p. 7)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare justice experiences. Significant perceived unfairness. Strong coping reactions including aggressive indignation, anger (Längle, 2002, p. 7) or dissociation (Längle, 2002, p. 7). Predominant shame."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No justice experienced. Pervasive unfairness and shame (Längle, 2002, p. 7). Failed coping reactions leading to personality disorders (Längle, 2002, p. 7). Complete inability to stand by own or refuse what doesn't correspond."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 9,
+          "name": "Appreciation",
+          "cornerstone": "Person (E3)",
+          "fundamental_question": "I am myself – may I be like this?",
+          "definition": {
+            "question": "For what am I appreciated—for what can I appreciate myself?… The sum of these experiences builds… the self-esteem.",
+            "citation": "Längle, 2002, p. 7"
+          },
+          "theoretical_foundation": {
+            "quote": "To be myself I need three things: attention, justice and appreciation",
+            "citation": "Längle, 2002, p. 7"
+          },
+          "active_participation_required": {
+            "quote": "Say 'yes to myself'… encounter… delimitate myself",
+            "citation": "Längle, 2002, p. 7"
+          },
+          "indicators_of_presence": [
+            "Participant describes being appreciated",
+            "Expresses 'authenticity… relief… self-respect'",
+            "Describes appreciation from others and self-appreciation",
+            "Feeling entitled to be what I am (Längle, 2002, p. 7)",
+            "The ability to stand by their uniqueness (Längle, 2002, p. 7)"
+          ],
+          "indicators_of_absence": [
+            "Participant describes lack of appreciation",
+            "Devaluation/shame; lack of appreciation",
+            "When unmet: solitude, shame; personality issues",
+            "Aggressive reaction: indignation, annoyance anger, reproach (Längle, 2002, p. 7)",
+            "Freezing type: dissociation/splitting of emotion and cognition (Längle, 2002, p. 7)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly appreciated by others and self. Strong self-esteem and feeling entitled to be what I am (Längle, 2002, p. 7). Robust capacity to stand by uniqueness (Längle, 2002, p. 7) and say yes to myself (Längle, 2002, p. 7). Authenticity, relief, self-respect evident."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally appreciated. Good self-esteem. Solid ability to stand by uniqueness. Minimal devaluation or shame."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some appreciation with limitations. Partial self-esteem. Mixed ability to stand by uniqueness. Some mild coping reactions (occasional self-doubt or distancing)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited appreciation. Weak self-esteem. Clear coping reactions such as stubborn insistence (Längle, 2002, p. 7) or distancing (Längle, 2002, p. 7). Notable solitude and shame (Längle, 2002, p. 7)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare appreciation. Significant devaluation. Strong coping reactions including indignation, anger or dissociation/splitting (Längle, 2002, p. 7). Predominant shame and lack of self-worth."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No appreciation from others or self. Pervasive solitude and shame (Längle, 2002, p. 7). Failed coping reactions leading to personality disorders (Längle, 2002, p. 7). Complete inability to say yes to self or stand by uniqueness."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "motivation_number": 4,
+      "motivation_name": "Seeing Meaning (E4)",
+      "short_name": "Meaning",
+      "existential_question": "I am there – for what is it good?",
+      "theoretical_foundation": {
+        "quote": "The fourth condition is rooted in the question of what I am there for. This is about meaning. But the question goes to the future. What is still to be? What should I do with my life? What shall I give to others and to the world?",
+        "citation": "Längle, 2002, p. 8"
+      },
+      "three_prerequisites_required": {
+        "description": "Three things are necessary for this: a field of activity, a structural context and a value to be realized in the future.",
+        "citation": "Längle, 2002, p. 8"
+      },
+      "positive_outcome_when_present": {
+        "outcome": "fulfillment",
+        "description": "If I act accordingly, my existence will be fulfilling. My life will be full, because I know what I live for and I am doing something about it",
+        "citation": "Längle, 2002, p. 8"
+      },
+      "negative_outcome_when_absent": {
+        "outcome": "addiction/existential vacuum",
+        "description": "emptiness, frustration, even despair... Disorders at this level mainly lead to addictions",
+        "citation": "Längle, 2002, p. 8"
+      },
+      "coping_reactions_when_threatened": [
+        {
+          "type": "basic_reaction",
+          "description": "a provisional attitude towards life and 'planless, day-to-day attitude toward life'",
+          "citation": "Längle, 2002, p. 8"
+        },
+        {
+          "type": "activism",
+          "description": "idealisation and fanaticism",
+          "citation": "Längle, 2002, p. 8"
+        },
+        {
+          "type": "aggression",
+          "description": "aggressive games and cynicism",
+          "citation": "Längle, 2002, p. 8"
+        },
+        {
+          "type": "freezing",
+          "description": "Fatalism, loss of interest, apathy and probably nihilism",
+          "citation": "Längle, 2002, p. 8"
+        }
+      ],
+      "active_participation_general": {
+        "quote": "My active part in this attitude of openness is to bring myself into correspondence with the situation, to examine whether what I am doing is really a good thing: for others, for myself, for the future, for my environment",
+        "citation": "Längle, 2002, p. 8"
+      },
+      "prerequisites": [
+        {
+          "prerequisite_id": 10,
+          "name": "Field of Activity",
+          "cornerstone": "Meaning (E4)",
+          "fundamental_question": "I am there – for what is it good?",
+          "definition": {
+            "question": "Is there a place where I feel needed, where I can be productive?",
+            "citation": "Längle, 2002, p. 8"
+          },
+          "theoretical_foundation": {
+            "quote": "Three things are necessary for this: a field of activity, a structural context and a value to be realized in the future",
+            "citation": "Längle, 2002, p. 8"
+          },
+          "active_participation_required": {
+            "quote": "My active part in this attitude of openness... is to... examine whether what I am doing is really a good thing",
+            "citation": "Längle, 2002, p. 8",
+            "full_quote": "This presupposes a certain attitude: a phenomenological attitude or attitude of openness, dealing with the questions put before me in each situation: 'What does this hour want from me, how shall I respond?'",
+            "citation_full": "Längle, 2002, p. 8"
+          },
+          "indicators_of_presence": [
+            "Participant describes a place where needed/productive",
+            "Names a concrete arena of contribution → capable of 'dedication and action'",
+            "Describes feeling needed and being productive",
+            "'Phenomenological attitude'/'attitude of openness' (Längle, 2002, p. 8)",
+            "Recognition of 'what my life is all about' (Längle, 2002, p. 8)"
+          ],
+          "indicators_of_absence": [
+            "Participant describes no place of being needed",
+            "No felt place of being needed; emptiness/despair",
+            "'Feeling of emptiness, frustration, even despair… frequently addiction' (Längle, 2002, p. 8)",
+            "Fails systematically to reach meaning (Längle, 2002, p. 8)",
+            "Loss of interest and apathy (Längle, 2002, p. 8)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly has a field where needed and productive. Strong attitude of openness (Längle, 2002, p. 8) and phenomenological attitude (Längle, 2002, p. 8). Robust capacity for dedication and action. Clear recognition of what my life is all about (Längle, 2002, p. 8). No emptiness or apathy."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally has a field of activity where needed. Good openness attitude. Solid dedication and productivity. Minimal frustration or disorientation."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some field of activity with limitations. Partial openness and dedication. Mixed sense of being needed. Some mild coping reactions (occasional provisional attitude or cynicism)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited field of activity. Weak sense of being needed. Clear coping reactions such as a provisional attitude towards life and 'planless, day-to-day attitude toward life' (Längle, 2002, p. 8). Notable emptiness, frustration (Längle, 2002, p. 8)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare or unclear field of activity. Significant emptiness and apathy. Strong coping reactions including idealisation and fanaticism or aggressive games and cynicism (Längle, 2002, p. 8). Fails systematically to reach meaning (Längle, 2002, p. 8)."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No field of activity or sense of being needed. Pervasive emptiness, frustration, even despair (Längle, 2002, p. 8). Failed coping reactions with Fatalism, loss of interest, apathy and probably nihilism (Längle, 2002, p. 8). Disorders at this level mainly lead to addictions (Längle, 2002, p. 8)."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 11,
+          "name": "Structural Context",
+          "cornerstone": "Meaning (E4)",
+          "fundamental_question": "I am there – for what is it good?",
+          "definition": {
+            "question": "Do I see and experience myself in a larger context that provides structure and orientation… Where I want to be integrated?",
+            "citation": "Längle, 2002, p. 8"
+          },
+          "theoretical_foundation": {
+            "quote": "Ontological meaning comes only from a larger context. Working at a cathedral is different from cutting stones. Therefore the question is: do I see myself in a larger context, which provides structure and orientation to my life?",
+            "citation": "Längle, 2002, p. 8"
+          },
+          "active_participation_required": {
+            "quote": "My active part... is to bring myself into correspondence with the situation",
+            "citation": "Längle, 2002, p. 8",
+            "full_quote": "My active part in this attitude of openness is to bring myself into correspondence with the situation, to examine whether what I am doing is really a good thing: for others, for myself, for the future, for my environment",
+            "citation_full": "Längle, 2002, p. 8"
+          },
+          "indicators_of_presence": [
+            "Participant describes self in meaningful larger context",
+            "Frames activity within wider purposes/communities; orientation and integration expressed",
+            "Describes larger context providing structure and orientation",
+            "Active part is to 'bring myself into agreement with the situation' (Längle, 2002, p. 8)",
+            "Examining if action is a 'good thing... for my environment' (Längle, 2002, p. 8)"
+          ],
+          "indicators_of_absence": [
+            "Participant lacks sense of larger context",
+            "No larger frame; apathy/nihilism tones",
+            "Freezing forms: 'fatalism… apathy… nihilism' (Längle, 2002, p. 8)",
+            "Idealisation and fanaticism as main forms of activism (Längle, 2002, p. 8)",
+            "Aggressive games and cynicism (Längle, 2002, p. 8)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly sees self within meaningful larger context (like building a cathedral versus cutting stones). Strong sense of structure and orientation to my life (Längle, 2002, p. 8). Robust integration into something greater. Clear understanding of ontological meaning (Längle, 2002, p. 9). No apathy or cynicism."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally perceives meaningful larger context. Good sense of structure and orientation. Solid integration into something greater. Minimal disorientation or cynicism."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some sense of larger context with limitations. Partial structure and orientation. Mixed sense of integration. Some mild coping reactions (occasional cynicism or provisional attitude)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited sense of larger context. Weak structure and orientation. Clear coping reactions such as a provisional attitude towards life or 'collective thinking' (Längle, 2002, p. 8). Notable emptiness, frustration (Längle, 2002, p. 8)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare sense of larger meaning or context. Significant disorientation. Strong coping reactions including idealisation and fanaticism or aggressive games and cynicism (Längle, 2002, p. 8). Emerging Fatalism or nihilism."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No sense of larger context or structure. Pervasive emptiness, frustration, even despair (Längle, 2002, p. 8). Failed coping reactions with Fatalism, loss of interest, apathy and probably nihilism (Längle, 2002, p. 8). Like cutting stones without knowing about the cathedral."
+            }
+          }
+        },
+        {
+          "prerequisite_id": 12,
+          "name": "Value to be Realized in the Future",
+          "cornerstone": "Meaning (E4)",
+          "fundamental_question": "I am there – for what is it good?",
+          "definition": {
+            "question": "Is there anything that should still be realized in my life?",
+            "citation": "Längle, 2002, p. 8"
+          },
+          "theoretical_foundation": {
+            "quote": "We define meaning as 'the most valuable, realistic possibility of the given situation, for which I feel I should decide myself'. Existential meaning is therefore what is possible here and now, on the basis of facts and reality",
+            "citation": "Längle, 2002, p. 8"
+          },
+          "active_participation_required": {
+            "quote": "My active part in this attitude of openness is to bring myself into correspondence with the situation, to examine whether what I am doing is really a good thing: for others, for myself, for the future, for my environment",
+            "citation": "Längle, 2002, p. 8",
+            "specific_stance": "attitude of openness",
+            "full_quote": "This presupposes a certain attitude: a phenomenological attitude or attitude of openness, dealing with the questions put before me in each situation: 'What does this hour want from me, how shall I respond?'",
+            "citation_stance": "Längle, 2002, p. 8"
+          },
+          "indicators_of_presence": [
+            "Participant identifies values to be realized",
+            "Names a specific to-be-realized value/possibility; lives an 'attitude of openness' to what is asked now",
+            "Describes something that should be realized in life",
+            "Attitude of openness (Längle, 2002, p. 8)",
+            "Deciding for 'the most valuable, realistic possibility' (Existential meaning) (Längle, 2002, p. 8)",
+            "Living out of Self-transcendence (Längle, 2002, p. 8)"
+          ],
+          "indicators_of_absence": [
+            "Participant sees no future values to realize",
+            "No valued possibility in view; emptiness/despair",
+            "Emptiness/despair/addiction when future-value is lacking",
+            "Fatalism (Längle, 2002, p. 8)",
+            "'Provisional attitude towards life' (Längle, 2002, p. 8)",
+            "Disorders at this level mainly lead to addictions (Längle, 2002, p. 8)"
+          ],
+          "scoring_criteria": {
+            "5": {
+              "label": "Fully Present",
+              "description": "Clearly identifies meaningful values for future realization. Strong attitude of openness (Längle, 2002, p. 8) and actively deals with the questions put before me in each situation (Längle, 2002, p. 8). Robust capacity to bring myself into correspondence with the situation and examine whether what I am doing is really a good thing: for others, for myself, for the future, for my environment (Längle, 2002, p. 8). Living out of Self-transcendence. Full sense of fulfillment."
+            },
+            "4": {
+              "label": "Strongly Present",
+              "description": "Generally identifies values to realize. Good openness attitude. Solid engagement with situational questions and correspondence. Good sense of fulfillment."
+            },
+            "3": {
+              "label": "Moderately Present",
+              "description": "Some future values with limitations. Partial openness and situational engagement. Mixed ability to bring myself into correspondence with the situation (Längle, 2002, p. 8). Some mild coping reactions (occasional provisional attitude)."
+            },
+            "2": {
+              "label": "Minimally Present",
+              "description": "Limited future values identified. Weak openness or situational engagement. Clear coping reactions such as a provisional attitude towards life and 'planless, day-to-day attitude toward life' (Längle, 2002, p. 8). Notable emptiness, frustration (Längle, 2002, p. 8)."
+            },
+            "1": {
+              "label": "Barely Present",
+              "description": "Rare or unclear future values. Significant emptiness and apathy. Strong coping reactions including idealisation and fanaticism or aggressive games and cynicism (Längle, 2002, p. 8). Emerging Fatalism or nihilism (Längle, 2002, p. 8)."
+            },
+            "0": {
+              "label": "Absent",
+              "description": "No identifiable future values to realize. Pervasive emptiness, frustration, even despair (Längle, 2002, p. 8). Failed coping reactions with addiction or Fatalism, loss of interest, apathy and probably nihilism (Längle, 2002, p. 8). Complete inability to see what should be realized or to live out of self-transcendence."
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "summary_of_negative_indicators_and_coping": {
+    "E1_World": {
+      "negative_outcome": "restlessness, insecurity and fear",
+      "citation": "Längle, 2002, p. 5",
+      "coping_reactions": "avoidance or flight… overactivity… destructive aggression… denial",
+      "citation_coping": "Längle, 2002, p. 5"
+    },
+    "E2_Life": {
+      "negative_outcome": "longing… coldness… depression",
+      "citation": "Längle, 2002, p. 6",
+      "coping_reactions": "regression; activism in the form of overprotection or achievement; fury, rage",
+      "citation_coping": "Längle, 2002, p. 6"
+    },
+    "E3_Person": {
+      "negative_outcome": "solitude… shame… histrionic symptoms/personality disorders",
+      "citation": "Längle, 2002, p. 7",
+      "coping_reactions": "distancing; stubborn insistence and functional life; indignation, anger; dissociation/splitting",
+      "citation_coping": "Längle, 2002, p. 7"
+    },
+    "E4_Meaning": {
+      "negative_outcome": "emptiness, frustration, even despair… frequently addiction",
+      "citation": "Längle, 2002, p. 8",
+      "coping_reactions": "provisional attitude; idealisation and fanaticism; aggressive games and cynicism; Fatalism, apathy, nihilism",
+      "citation_coping": "Längle, 2002, p. 8"
+    }
+  }
+}
