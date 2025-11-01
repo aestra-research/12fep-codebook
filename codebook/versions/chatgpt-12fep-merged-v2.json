@@ -1,0 +1,341 @@
+{
+  "title": "12 Fundamental Existential Prerequisites (12FEP) – Längle-based Codebook (v2-merged)",
+  "version": "2025-10-31",
+  "authors_note": "All definitions, quotations, and constructs are taken verbatim or paraphrased faithfully from Längle (2002, 2011). Each direct quote is followed by a verified source token.",
+  "llm_instructions": {
+    "general": [
+      "Score each prerequisite from 0 (not present) to 5 (fully present) using participant testimony.",
+      "Justify each score with specific excerpts from the testimony plus at least one supporting Längle quote included here.",
+      "Use presence/absence indicators as guides; do not infer beyond participant wording.",
+      "Prefer exact participant language; avoid clinician-added interpretations unless grounded in testimony.",
+      "When citing Längle, retain the quotation exactly and include the file token after the quote."
+    ],
+    "scoring_anchors": {
+      "5": "Robust, consistent presence across contexts; spontaneous language reflecting Längle’s active stance and positive outcomes.",
+      "4": "Strong presence with minor gaps or situational limits.",
+      "3": "Mixed/partial presence; some conditions or stance present while others weak.",
+      "2": "Low presence; indicators of threat/coping reactions begin to dominate.",
+      "1": "Barely present; strong absence indicators and frequent coping reactions.",
+      "0": "Not present; pervasive absence indicators and outcomes characteristic of this FEP."
+    }
+  },
+  "structure": {
+    "E1": {
+      "name": "World — Being There",
+      "existential_question": "“I am – can I be?”",
+      "core_text": [
+        {
+          "quote": "“I am - can I be? Can I claim my place in this world… This demands three things: protection, space and support… If this is not the case, the result will be restlessness, insecurity and fear… The sum of these experiences of trust is the fundamental trust.”",
+          "source": ":contentReference[oaicite:1]{index=1}"
+        },
+        {
+          "quote": "“My active part… is to accept the positive sides and to endure the negative ones… to be ready to occupy the space… and to trust the protection; in short ‘to be there’ and not to flee.”",
+          "source": ":contentReference[oaicite:2]{index=2}"
+        }
+      ],
+      "prerequisites": [
+        {
+          "id": "1.1",
+          "name": "Protection",
+          "definition_question": "“Do I enjoy protection, acceptance, do I feel at home somewhere?”",
+          "source": ":contentReference[oaicite:3]{index=3}",
+          "active_stance_quote": "“to be there… to be ready to occupy the space… and to trust the protection; in short ‘to be there’ and not to flee.”",
+          "active_stance_source": ":contentReference[oaicite:4]{index=4}",
+          "indicators_present": [
+            "Reports of safety/acceptance; ‘feeling at home’",
+            "Explicit trust in protective figures/contexts (“fundamental trust”)."
+          ],
+          "indicators_absent": [
+            "Language of ‘restlessness, insecurity and fear’.",
+            "Avoidance/flight when threatened (coping)."
+          ],
+          "quotes": [
+            {
+              "q": "“If this is not the case, the result will be restlessness, insecurity and fear.”",
+              "source": ":contentReference[oaicite:5]{index=5}"
+            },
+            {
+              "q": "“Each fundamental motivation has four types of coping reactions: the basic reaction type – here this would be avoidance or flight…”",
+              "source": ":contentReference[oaicite:6]{index=6}"
+            }
+          ],
+          "scoring": {
+            "5": "Feels protected/accepted across settings; offers trust language and stays ‘there’ in adversity.",
+            "3": "Mixed safety; relies on protection in some contexts, avoids in others.",
+            "0": "Pervasive insecurity/fear; frequent flight/avoidance."
+          }
+        },
+        {
+          "id": "1.2",
+          "name": "Space",
+          "definition_question": "Do I have enough space for being there?",
+          "source": ":contentReference[oaicite:7]{index=7}",
+          "active_stance_quote": "“to accept means to let each other be… because there is still enough space for me”",
+          "active_stance_source": ":contentReference[oaicite:8]{index=8}",
+          "indicators_present": [
+            "Speaks of room to act/express; allows others ‘to be’.",
+            "Tolerates constraints while remaining present."
+          ],
+          "indicators_absent": [
+            "Feels cramped/menaced; withdraws or fights for room.",
+            "Overactivity/activism to force space (coping)."
+          ],
+          "quotes": [
+            {
+              "q": "“To let them be, to accept them as given is only possible, if I can be at the same time. Therefore, to accept means to let each other be…”",
+              "source": ":contentReference[oaicite:9]{index=9}"
+            }
+          ],
+          "scoring": {
+            "5": "Stable sense of inner/outer room; cooperative boundarying.",
+            "3": "Partial room; sometimes forced or defended.",
+            "0": "No perceived room; strong activism/withdrawal."
+          }
+        },
+        {
+          "id": "1.3",
+          "name": "Support",
+          "definition_question": "“Where do I find support in my life?”",
+          "source": ":contentReference[oaicite:10]{index=10}",
+          "active_stance_quote": "“To endure means the force to let be whatever is difficult… and to ‘tolerate’ what cannot be changed.”",
+          "active_stance_source": ":contentReference[oaicite:11]{index=11}",
+          "indicators_present": [
+            "Names reliable supports; leans on them in difficulty.",
+            "Describes endurance/toleration alongside reliance."
+          ],
+          "indicators_absent": [
+            "Rejects/denies supports; cannot endure negative sides.",
+            "Freezing/denial when supports feel uncertain."
+          ],
+          "scoring": {
+            "5": "Stable supports and explicit reliance in action/decisions.",
+            "3": "Some support but fragile reliance.",
+            "0": "No usable support; collapses or freezes under strain."
+          }
+        }
+      ]
+    },
+    "E2": {
+      "name": "Life — Dealing with Relationships & Emotions",
+      "existential_question": "“I am alive—do I like this fact?”",
+      "core_text": [
+        {
+          "quote": "“In order to seize my life, to love it, I need three things: relationship, time and closeness… If relationships, closeness and time are lacking, longing will arise, then coldness and finally depression.”",
+          "source": ":contentReference[oaicite:12]{index=12}"
+        },
+        {
+          "quote": "“I seize life, engage in it, when I turn to other people… go towards it, get close, get into touch… This ‘to turn to’ will make life vibrate within me… my consent to being touched (to feeling) is necessary.”",
+          "source": ":contentReference[oaicite:13]{index=13}"
+        }
+      ],
+      "prerequisites": [
+        {
+          "id": "2.1",
+          "name": "Relationship",
+          "definition_question": "“Do I have relationships… in which I experience community?”",
+          "source": "",
+          "indicators_present": [
+            "Turns toward others; speaks of community/closeness.",
+            "Language of ‘being in harmony with the world and with myself’. :contentReference[oaicite:15]{index=15}"
+          ],
+          "indicators_absent": [
+            "Longing → coldness → depression.",
+            "Regression/activism patterns around contact."
+          ],
+          "quotes": [
+            {
+              "q": "“longing will arise, then coldness and finally depression.”",
+              "source": ":contentReference[oaicite:16]{index=16}"
+            }
+          ],
+          "scoring": {
+            "5": "Rich, mutual relationships and community; frequent ‘turning to’.",
+            "3": "Some ties; intermittent withdrawal/longing.",
+            "0": "No meaningful ties; coldness/depressive tone."
+          }
+        },
+        {
+          "id": "2.2",
+          "name": "Time",
+          "definition_question": "“What do I take time for? Do I take time for valuable things, worthy to spend my time for?”",
+          "source": ":contentReference[oaicite:17]{index=17}",
+          "indicators_present": [
+            "Gives time to what is ‘valuable’; prioritizes.",
+            "Links time use to relationships/values."
+          ],
+          "indicators_absent": [
+            "Shallowness of daily life; lifestyle negligence; activism as overprotection/achievement.",
+            "Talk of ‘wasting time’ without value reference."
+          ],
+          "quotes": [
+            {
+              "q": "“To take time for something means to give away a part of one’s life while spending it with someone or something.”",
+              "source": ":contentReference[oaicite:18]{index=18}"
+            },
+            {
+              "q": "“It may also be the shallowness of daily life and the negligence in one’s lifestyle that make life stale.”",
+              "source": ""
+            }
+          ],
+          "scoring": {
+            "5": "Consistent investment of time in what is valued; clear tradeoffs.",
+            "3": "Mixed; some valuable time, some shallow/compulsive busyness.",
+            "0": "No time for what’s valuable; pervasive staleness/activism."
+          }
+        },
+        {
+          "id": "2.3",
+          "name": "Closeness",
+          "definition_question": "“Can I feel close and maintain closeness… Can I admit the closeness of someone else?”",
+          "source": ":contentReference[oaicite:20]{index=20}",
+          "active_stance_quote": "“my consent to being touched (to feeling) is necessary.”",
+          "active_stance_source": ":contentReference[oaicite:21]{index=21}",
+          "indicators_present": [
+            "Says they ‘get close’, ‘get into touch’; allows being moved (‘life vibrate within me’)."
+          ],
+          "indicators_absent": [
+            "Emotionally numb; resignation (‘feigned death’) or rage to agitate the other.",
+            "States inability to admit others’ closeness."
+          ],
+          "scoring": {
+            "5": "Open, sustainable closeness; readily ‘consents to being touched’.",
+            "3": "Selective closeness; guarded consent.",
+            "0": "No closeness; resignation or aggression predominates."
+          }
+        }
+      ]
+    },
+    "E3": {
+      "name": "Person — Being Oneself",
+      "existential_question": "“I am myself—may I be like this?”",
+      "core_text": [
+        {
+          "quote": "“There is a singularity that makes me an ‘I’… This is the plane of identity… In order to succeed here, it is necessary to have experienced three things: attention, justice and appreciation.”",
+          "source": ":contentReference[oaicite:22]{index=22}"
+        },
+        {
+          "quote": "“I also have to say ‘yes to myself’… to encounter [others] and, at the same time, to demarcate myself… and to refuse whatever does not correspond to me.”",
+          "source": ":contentReference[oaicite:23]{index=23}"
+        }
+      ],
+      "prerequisites": [
+        {
+          "id": "3.1",
+          "name": "Attention",
+          "definition_question": "By whom am I seen? Who considers my uniqueness and respects my boundaries?",
+          "source": ":contentReference[oaicite:24]{index=24}",
+          "indicators_present": [
+            "Reports of being seen/recognized; boundaries respected."
+          ],
+          "indicators_absent": [
+            "Unseen/overlooked; shame/solitude themes."
+          ],
+          "scoring": { "5": "Consistently seen/respected.", "3": "Intermittently seen.", "0": "Not seen; hides/withdraws." }
+        },
+        {
+          "id": "3.2",
+          "name": "Justice",
+          "definition_question": "“Do people do me justice?”",
+          "source": ":contentReference[oaicite:25]{index=25}",
+          "indicators_present": [ "Fair treatment acknowledged; self-advocacy without hostility." ],
+          "indicators_absent": [ "Injustice language; indignation/anger as dominant coping." ],
+          "scoring": { "5": "Stable sense of fairness; measured stance.", "3": "Mixed fairness; periodic indignation.", "0": "Persistent unfairness; anger/reproach." }
+        },
+        {
+          "id": "3.3",
+          "name": "Appreciation",
+          "definition_question": "“For what am I appreciated—for what can I appreciate myself?”",
+          "source": ":contentReference[oaicite:26]{index=26}",
+          "indicators_present": [
+            "Voices self-worth/relief/authenticity (self-respect)."
+          ],
+          "indicators_absent": [
+            "Hides behind shame; histrionic/personality symptoms if hurt persists."
+          ],
+          "quotes": [
+            { "q": "“The sum of these experiences builds one’s own worth… the self-esteem.”", "source": ":contentReference[oaicite:27]{index=27}" }
+          ],
+          "scoring": { "5": "Firm self-respect/appreciation.", "3": "Conditional appreciation.", "0": "Self-worth fragile/absent." }
+        }
+      ]
+    },
+    "E4": {
+      "name": "Meaning — Becoming, Future & Commitment",
+      "existential_question": "“I am there—for what is it good?”",
+      "core_text": [
+        {
+          "quote": "“For this, three things are necessary: a field of activity, a structural context and a value to be realized in the future… If this is not the case, the result will be a feeling of emptiness, frustration, even despair and frequently addiction.”",
+          "source": ":contentReference[oaicite:28]{index=28}"
+        },
+        {
+          "quote": "“This attitude of openness represents the existential access to meaning… ‘What does this hour want from me, how shall I respond?’”",
+          "source": ":contentReference[oaicite:29]{index=29}"
+        },
+        {
+          "quote": "“We define meaning as ‘the most valuable, realistic possibility of the given situation, for which I feel I should decide myself.’”",
+          "source": ":contentReference[oaicite:30]{index=30}"
+        }
+      ],
+      "prerequisites": [
+        {
+          "id": "4.1",
+          "name": "Field of Activity (Being Needed/Productive)",
+          "definition_question": "“Is there a place where I feel needed, where I can be productive?”",
+          "source": ":contentReference[oaicite:31]{index=31}",
+          "indicators_present": [
+            "Names a concrete field to contribute; dedication/action language."
+          ],
+          "indicators_absent": [
+            "Emptiness/frustration/apathy; ‘planless, day-to-day attitude’ (coping)."
+          ],
+          "scoring": { "5": "Clear neededness/productivity.", "3": "Partial/irregular field.", "0": "None; emptiness/addictive drift." }
+        },
+        {
+          "id": "4.2",
+          "name": "Structural Context (Larger Frame)",
+          "definition_question": "“Do I see and experience myself in a larger context that provides structure and orientation… Where I want to be integrated?”",
+          "source": ":contentReference[oaicite:32]{index=32}",
+          "indicators_present": [
+            "Frames activities within broader purposes/communities."
+          ],
+          "indicators_absent": [
+            "Cynicism/idealisation/fatalism; ‘collective thinking’ without personal stance."
+          ],
+          "scoring": { "5": "Clear integration in larger frame.", "3": "Intermittent sense of context.", "0": "No larger frame; nihilistic tones." }
+        },
+        {
+          "id": "4.3",
+          "name": "Value to be Realized (Future)",
+          "definition_question": "“Is there anything that should still be realized in my life?”",
+          "source": ":contentReference[oaicite:33]{index=33}",
+          "active_stance_quote": "“My active part… is to bring myself into correspondence with the situation, to examine whether what I am doing is really a good thing: for others, for myself, for the future, for my environment.”",
+          "active_stance_source": ":contentReference[oaicite:34]{index=34}",
+          "indicators_present": [
+            "Identifies next values; speaks of ongoing choosing of the ‘most valuable, realistic possibility’.",
+            "Uses ‘openness’ questions (‘What does this hour want from me?’)."
+          ],
+          "indicators_absent": [
+            "Fatalism; loss of interest; apathy; nihilism."
+          ],
+          "quotes": [
+            {
+              "q": "“the most valuable, realistic possibility of the given situation, for which I feel I should decide myself.”",
+              "source": ":contentReference[oaicite:35]{index=35}"
+            }
+          ],
+          "scoring": { "5": "Actively references and enacts valued possibilities.", "3": "Some future values but weak enactment.", "0": "No future values; fatalistic/apathic stance." }
+        }
+      ]
+    }
+  },
+  "scoring_workflow": [
+    "Collect verbatim testimony segments per FEP.",
+    "Map segments to presence/absence indicators and to Längle quotes.",
+    "Assign 0–5 using anchors and justify with 1–2 participant excerpts + 1 Längle quote.",
+    "Record any coping reactions Längle names for that FEP when threats are described."
+  ],
+  "apa_references": [
+    "Längle, A. (2002). Existential fundamental motivation. In Motivation, Consciousness and Self-Regulation (pp. 27–42). Nova Science Publishers.",
+    "Längle, A. (2011). The existential fundamental motivations structuring the motivational process. In D. A. Leontiev (Ed.), Motivation, Consciousness and Self-Regulation (pp. 27–42). Nova Science Publishers."
+  ]
+}
