@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+message: "If you use this codebook in your research, please cite it as below."
+type: dataset
+title: "EA 12FEP Codebook for LLM-Assisted Qualitative Analysis"
+abstract: >-
+  A structured codebook for scoring participant testimony against Längle's
+  12 Fundamental Existential Prerequisites (12FEP) framework, designed for use
+  with Large Language Models as a research instrument. Built by multi-LLM
+  cross-validation against two primary Längle sources (2002, 2011b). Every code
+  traces to a verbatim quote with citation. Companion to the WCET4 (2026) paper
+  "Do You Understand?! Best Practices using Artificial Intelligence in
+  Research (and Life)."
+authors:
+  - family-names: "Nelson-Zutter"
+    given-names: "Graham"
+    email: "graham@aestra.ca"
+    affiliation: "MSc student, Existential Analysis & Logotherapy, University of Salzburg, Austria"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # add when available
+version: "1.0"
+date-released: "2026-06-XX"  # set when you tag the v1.0 release
+license: "CC-BY-4.0"
+repository-code: "https://github.com/aestra-research/12fep-codebook"
+url: "https://github.com/aestra-research/12fep-codebook"
+keywords:
+  - "Existential Analysis"
+  - "Logotherapy"
+  - "12 Fundamental Existential Prerequisites"
+  - "12FEP"
+  - "Längle"
+  - "qualitative analysis"
+  - "research codebook"
+  - "large language models"
+  - "multi-LLM cross-validation"
+  - "psychedelic-assisted therapy"
+references:
+  - type: article
+    authors:
+      - family-names: "Längle"
+        given-names: "Alfried"
+    year: 2002
+    title: "Die Grundmotivationen menschlicher Existenz als Wirkstruktur existenzanalytischer Psychotherapie"
+    journal: "Fundamenta Psychiatrica"
+    volume: 16
+    issue: 1
+    start: 27
+    end: 42
+  - type: article
+    authors:
+      - family-names: "Längle"
+        given-names: "Alfried"
+    year: 2011
+    title: "The Existential Fundamental Motivations Structuring the Motivational Process"
+    editors:
+      - family-names: "Leontiev"
+        given-names: "D."
+    publisher:
+      name: "Nova Science Publishers"
+    book: "Motivation, Consciousness and Self-Regulation"
+    start: 27
+    end: 42
+
+# Note on contributor attribution:
+# LLMs (ChatGPT, Gemini, Claude, etc.) used in the methodology of producing this
+# codebook are research tools, not authors or contributors. They are not listed
+# in `authors` or any `contributors` field, in keeping with the position of
+# Nature, Science, JAMA, ICMJE, and WAME that AI systems cannot meet authorship
+# criteria. See README.md "Authorship and contribution" and docs/lineage.md
+# "On contributor attribution" for the full rationale.

@@ -1,0 +1,37 @@
+{
+  "title": "EA 12FEP Codebook for LLM-Assisted Qualitative Analysis",
+  "description": "<p>A structured codebook for scoring participant testimony against L&auml;ngle's 12 Fundamental Existential Prerequisites (12FEP) framework, designed for use with Large Language Models as a research instrument. Built by multi-LLM cross-validation against two primary L&auml;ngle sources (2002, 2011b). Every code traces to a verbatim quote with citation.</p><p>Companion to the WCET4 (2026) paper &quot;Do You Understand?! Best Practices using Artificial Intelligence in Research (and Life)&quot; by Graham Nelson-Zutter.</p><p><strong>Note:</strong> LLMs (ChatGPT, Gemini, Claude) used in the methodology that produced this codebook are research instruments, not co-authors. See README and docs/lineage.md for details.</p>",
+  "creators": [
+    {
+      "name": "Nelson-Zutter, Graham",
+      "affiliation": "MSc student, Existential Analysis & Logotherapy, University of Salzburg, Austria"
+      // "orcid": "0000-0000-0000-0000"  // add when available
+    }
+  ],
+  "upload_type": "dataset",
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Existential Analysis",
+    "Logotherapy",
+    "12 Fundamental Existential Prerequisites",
+    "12FEP",
+    "Längle",
+    "qualitative analysis",
+    "research codebook",
+    "large language models",
+    "multi-LLM cross-validation"
+  ],
+  "communities": [
+    {"identifier": "psychology"}
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isPartOf",
+      "identifier": "10.5281/zenodo.XXXXXXX",
+      "resource_type": "presentation",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "LLMs used during the methodology of producing this codebook (ChatGPT 5 Thinking, Gemini 2.5 Turbo, Claude Sonnet 4.5) are research instruments, not co-authors. They are not listed in the `creators` field, in keeping with the position of Nature, Science, JAMA, ICMJE, and WAME that AI systems cannot meet authorship criteria."
+}
