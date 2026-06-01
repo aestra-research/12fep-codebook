@@ -4,7 +4,7 @@
     "version": "2.0 - Final Verified Merged Edition",
     "merged_from": [
       "chatgpt-12fep-merged-v1.json",
-      "claude-12fep-merged-codebook-v1.json",
+      "claude-12fep-merged-v1.json",
       "gemini-12fep-merged-v1.json"
     ],
     "verification_status": "All quotes verified against original Längle sources (2002, 2011)",

@@ -130,3 +130,25 @@ The per-LLM signatures documented above were first characterized during the 4FMs
 Per the README: LLMs (Claude, ChatGPT, Gemini, etc.) are **tools used in the methodology**, not contributors or co-authors. They do not appear in `CITATION.cff`, `.zenodo.json`, git commit `--author`, or this lineage file's contributor lists.
 
 Future human contributors who substantively shape a version (in the sense of ICMJE / CRediT author criteria) should be added to `CITATION.cff` with their explicit consent.
+
+## Creation Timeline — original authoring dates
+
+The codebook was authored Oct 31 – Nov 30, 2025, ~6 months before this repo was created (2026-05-31). The git commit dates here reflect when files were deposited into the public repo, not when they were authored. The authentic creation timestamps from the development workspace:
+
+| File | Original creation (PT) | Stage |
+|---|---|---|
+| `versions/gemini-12fep-v1.json` | 2025-10-31  20:44 | Step 1 — Gemini's independent v1 |
+| `versions/chatgpt-12fep-v1.json` | 2025-10-31  20:45 | Step 1 — ChatGPT's independent v1 |
+| `versions/claude-12fep-v1.json` | 2025-10-31  21:13 | Step 1 — Claude's independent v1 |
+| `versions/chatgpt-12fep-merged-v1.json` | 2025-10-31  21:16 | Step 2 — ChatGPT's merge of all 3 v1s |
+| `versions/gemini-12fep-merged-v1.json` | 2025-10-31  21:17 | Step 2 — Gemini's merge of all 3 v1s |
+| `versions/claude-12fep-merged-v1.json` | 2025-10-31  21:32 | Step 2 — Claude's merge of all 3 v1s |
+| `versions/chatgpt-12fep-merged-v2.json` | 2025-11-01  00:27 | Step 3 — ChatGPT's merged-v2 candidate |
+| `versions/gemini-12fep-merged-v2.json` | 2025-11-01  00:27 | Step 3 — Gemini's merged-v2 candidate |
+| `versions/claude-12fep-merged-v2.json` (= `12fep-master.json`) | 2025-11-30  15:40 | Step 3 — Claude's merged-v2 (promoted to MASTER per LLM jury) |
+
+Source: filesystem mtimes from the original codebook development workspace (iCloud, `~/Library/Mobile Documents/com~apple~CloudDocs/LibreOffice/*EA & LT Codebooks/LLMS/`). Mtimes are preserved at the source files and are verifiable by anyone with access to that workspace.
+
+## Note on the renamed file
+
+In the original development workspace, Claude's merged-v1 was named `claude-12fep-merged-codebook-v1.json` (with the extra word "codebook"). For symmetric naming across LLMs in this repo, it has been renamed to `claude-12fep-merged-v1.json`. The byte content of the codebook itself is unchanged; the `merged_from` reference inside `12fep-master.json` and `versions/claude-12fep-merged-v2.json` has been updated to reflect the in-repo filename (the only modification to the original artifact's JSON content).
