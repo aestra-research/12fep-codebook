@@ -9,7 +9,12 @@ abstract: >-
   cross-validation against two primary Längle sources (2002, 2011b). Every code
   traces to a verbatim quote with citation. Companion to the WCET4 (2026) paper
   "Do You Understand?! Best Practices using Artificial Intelligence in
-  Research (and Life)."
+  Research (and Life)." Methodological refinement of the predecessor EA 4FM
+  Codebook (https://doi.org/10.5281/zenodo.20483207), which was built first
+  (Oct 25–29, 2025); this 12FEP codebook simplifies the build protocol
+  (parallel start + cross-LLM merges + LLM jury vote) and reduces the source
+  set (2 vs 4 Längle papers) while decomposing the four Fundamental
+  Motivations into 12 Existential Prerequisites for finer-grained scoring.
 authors:
   - family-names: "Nelson-Zutter"
     given-names: "Graham"
@@ -17,10 +22,18 @@ authors:
     affiliation: "MSc student, Existential Analysis & Logotherapy, University of Salzburg, Austria"
     orcid: "https://orcid.org/0009-0003-9567-6512"
 version: "1.0"
-date-released: "2026-06-XX"  # set when you tag the v1.0 release
+date-released: "2026-06-06"  # WCET4 presentation date (Sat 6 Jun 2026, Denver, CO)
 license: "CC-BY-4.0"
 repository-code: "https://github.com/aestra-research/12fep-codebook"
 url: "https://github.com/aestra-research/12fep-codebook"
+doi: "10.5281/zenodo.20481464"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20481464"
+    description: "Concept DOI (always resolves to the latest version)"
+  - type: doi
+    value: "10.5281/zenodo.20481519"
+    description: "Version DOI for v1.0.2"
 keywords:
   - "Existential Analysis"
   - "Logotherapy"
@@ -33,6 +46,23 @@ keywords:
   - "multi-LLM cross-validation"
   - "psychedelic-assisted therapy"
 references:
+  - type: dataset
+    title: "EA 4FM Codebook for LLM-Assisted Qualitative Analysis"
+    authors:
+      - family-names: "Nelson-Zutter"
+        given-names: "Graham"
+        orcid: "https://orcid.org/0009-0003-9567-6512"
+    year: 2026
+    doi: "10.5281/zenodo.20483207"
+    repository-code: "https://github.com/aestra-research/4fm-codebook"
+    notes: >-
+      Methodological predecessor to this 12FEP codebook. Built first (Oct 25–29,
+      2025) using a per-LLM iteration + single-LLM self-merge + multi-LLM
+      cross-merge + researcher selection protocol against four primary Längle
+      sources (1992, 2002, 2003, 2011). This 12FEP codebook refines and
+      simplifies that protocol (parallel start + cross-LLM merges + LLM jury
+      vote, two primary Längle sources only) and decomposes the four
+      Fundamental Motivations into 12 Existential Prerequisites.
   - type: article
     authors:
       - family-names: "Längle"
