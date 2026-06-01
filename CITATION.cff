@@ -15,7 +15,7 @@ authors:
     given-names: "Graham"
     email: "graham@aestra.ca"
     affiliation: "MSc student, Existential Analysis & Logotherapy, University of Salzburg, Austria"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # add when available
+    orcid: "https://orcid.org/0009-0003-9567-6512"
 version: "1.0"
 date-released: "2026-06-XX"  # set when you tag the v1.0 release
 license: "CC-BY-4.0"
