@@ -25,15 +25,15 @@ README.md                this file
 CITATION.cff             machine-readable citation metadata
 .zenodo.json             Zenodo deposit metadata
 codebook/
-  ├── 12fep-master.json  the canonical MASTER (current)
+  ├── 12fep-master_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json  the canonical MASTER (current)
   └── versions/          full development lineage (per-LLM, per-stage)
 docs/
-  └── lineage.md         how each version was produced (multi-LLM build story)
+  └── lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md         how each version was produced (multi-LLM build story)
 ```
 
 ## How to use it
 
-1. Download `codebook/12fep-master.json`.
+1. Download `codebook/12fep-master_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json`.
 2. Provide it to your LLM of choice alongside your participant testimony (CSV).
 3. The codebook's `instructions_for_llm` block tells the LLM how to score (0–5 scale, quote-anchored justification required).
 4. The LLM returns scores with justifications; you (the researcher) verify the quote provenance manually before publishing.
@@ -42,7 +42,7 @@ The methodology paper above describes the full workflow including multi-LLM cros
 
 ## How it was built
 
-Three LLMs (ChatGPT 5 Thinking, Gemini 2.5 Turbo, Claude Sonnet 4.5) independently produced v1 codebooks from the same two Längle sources. Each LLM then merged all three v1s into its own merged-v1. The MASTER is the result of an LLM jury vote (2/3 chose Claude's version). See [`docs/lineage.md`](docs/lineage.md).
+Three LLMs (ChatGPT 5 Thinking, Gemini 2.5 Turbo, Claude Sonnet 4.5) independently produced v1 codebooks from the same two Längle sources. Each LLM then merged all three v1s into its own merged-v1. The MASTER is the result of an LLM jury vote (2/3 chose Claude's version). See [`docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md`](docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md).
 
 ## How to cite
 
@@ -56,7 +56,7 @@ For a specific version, use the version DOI (e.g. v1.0.2: `10.5281/zenodo.204815
 
 Each substantive release is a tagged GitHub release. GitHub-→-Zenodo integration archives each release and mints a version DOI. The concept DOI represents the artifact across all versions.
 
-**Important:** the codebook's version lineage is *not* a linear edit chain — it's a multi-LLM consensus process. See [`docs/lineage.md`](docs/lineage.md) for the rationale and methodology.
+**Important:** the codebook's version lineage is *not* a linear edit chain — it's a multi-LLM consensus process. See [`docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md`](docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md) for the rationale and methodology.
 
 ## Contributing
 
@@ -66,13 +66,13 @@ Issues, discussions, and PRs welcome. The intended development workflow:
 - **PR discussions** work through methodology proposals (e.g., adding a new FM sub-theme, extending to a different population's testimony).
 - **Tagged releases** package consensus-validated updates and ship them with a fresh Zenodo DOI.
 
-When proposing a new version: follow the multi-LLM consensus pattern documented in `docs/lineage.md`. Single-LLM unilateral edits should be flagged for review.
+When proposing a new version: follow the multi-LLM consensus pattern documented in `docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md`. Single-LLM unilateral edits should be flagged for review.
 
 ## Authorship and contribution
 
 **Sole author:** Graham Nelson-Zutter (graham@aestra.ca), MSc student, Existential Analysis & Logotherapy, University of Salzburg.
 
-The LLMs used during the methodology (ChatGPT 5 Thinking, Gemini 2.5 Turbo, Claude Sonnet 4.5, and others described in `docs/lineage.md`) are **research instruments**, not contributors or co-authors. They do not receive attribution as contributors in `CITATION.cff`, `.zenodo.json`, or git commit metadata. This follows the position taken by major academic journals (Nature, Science, JAMA, the World Association of Medical Editors) that AI systems cannot meet the criteria for authorship and must not be listed as such.
+The LLMs used during the methodology (ChatGPT 5 Thinking, Gemini 2.5 Turbo, Claude Sonnet 4.5, and others described in `docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md`) are **research instruments**, not contributors or co-authors. They do not receive attribution as contributors in `CITATION.cff`, `.zenodo.json`, or git commit metadata. This follows the position taken by major academic journals (Nature, Science, JAMA, the World Association of Medical Editors) that AI systems cannot meet the criteria for authorship and must not be listed as such.
 
 If a future contributor proposes a PR, they should be added to `CITATION.cff` as a co-author of that version (with their consent). The "LLMs as tools, not authors" rule applies to AI systems specifically and is not negotiable.
 

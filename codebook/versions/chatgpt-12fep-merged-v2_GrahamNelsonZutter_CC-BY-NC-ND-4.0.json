@@ -1,4 +1,9 @@
 {
+  "_attribution": {
+    "created_by": "Graham Nelson-Zutter",
+    "copyright": "©2026 Aestra Inc. except when external source noted.",
+    "license": "CC BY-NC-ND-4.0"
+  },
   "title": "12 Fundamental Existential Prerequisites (12FEP) – Längle-based Codebook (v2-merged)",
   "version": "2025-10-31",
   "authors_note": "All definitions, quotations, and constructs are taken verbatim or paraphrased faithfully from Längle (2002, 2011). Each direct quote is followed by a verified source token.",
@@ -230,16 +235,28 @@
           "indicators_absent": [
             "Unseen/overlooked; shame/solitude themes."
           ],
-          "scoring": { "5": "Consistently seen/respected.", "3": "Intermittently seen.", "0": "Not seen; hides/withdraws." }
+          "scoring": {
+            "5": "Consistently seen/respected.",
+            "3": "Intermittently seen.",
+            "0": "Not seen; hides/withdraws."
+          }
         },
         {
           "id": "3.2",
           "name": "Justice",
           "definition_question": "“Do people do me justice?”",
           "source": ":contentReference[oaicite:25]{index=25}",
-          "indicators_present": [ "Fair treatment acknowledged; self-advocacy without hostility." ],
-          "indicators_absent": [ "Injustice language; indignation/anger as dominant coping." ],
-          "scoring": { "5": "Stable sense of fairness; measured stance.", "3": "Mixed fairness; periodic indignation.", "0": "Persistent unfairness; anger/reproach." }
+          "indicators_present": [
+            "Fair treatment acknowledged; self-advocacy without hostility."
+          ],
+          "indicators_absent": [
+            "Injustice language; indignation/anger as dominant coping."
+          ],
+          "scoring": {
+            "5": "Stable sense of fairness; measured stance.",
+            "3": "Mixed fairness; periodic indignation.",
+            "0": "Persistent unfairness; anger/reproach."
+          }
         },
         {
           "id": "3.3",
@@ -253,9 +270,16 @@
             "Hides behind shame; histrionic/personality symptoms if hurt persists."
           ],
           "quotes": [
-            { "q": "“The sum of these experiences builds one’s own worth… the self-esteem.”", "source": ":contentReference[oaicite:27]{index=27}" }
+            {
+              "q": "“The sum of these experiences builds one’s own worth… the self-esteem.”",
+              "source": ":contentReference[oaicite:27]{index=27}"
+            }
           ],
-          "scoring": { "5": "Firm self-respect/appreciation.", "3": "Conditional appreciation.", "0": "Self-worth fragile/absent." }
+          "scoring": {
+            "5": "Firm self-respect/appreciation.",
+            "3": "Conditional appreciation.",
+            "0": "Self-worth fragile/absent."
+          }
         }
       ]
     },
@@ -288,7 +312,11 @@
           "indicators_absent": [
             "Emptiness/frustration/apathy; ‘planless, day-to-day attitude’ (coping)."
           ],
-          "scoring": { "5": "Clear neededness/productivity.", "3": "Partial/irregular field.", "0": "None; emptiness/addictive drift." }
+          "scoring": {
+            "5": "Clear neededness/productivity.",
+            "3": "Partial/irregular field.",
+            "0": "None; emptiness/addictive drift."
+          }
         },
         {
           "id": "4.2",
@@ -301,7 +329,11 @@
           "indicators_absent": [
             "Cynicism/idealisation/fatalism; ‘collective thinking’ without personal stance."
           ],
-          "scoring": { "5": "Clear integration in larger frame.", "3": "Intermittent sense of context.", "0": "No larger frame; nihilistic tones." }
+          "scoring": {
+            "5": "Clear integration in larger frame.",
+            "3": "Intermittent sense of context.",
+            "0": "No larger frame; nihilistic tones."
+          }
         },
         {
           "id": "4.3",
@@ -323,7 +355,11 @@
               "source": ":contentReference[oaicite:35]{index=35}"
             }
           ],
-          "scoring": { "5": "Actively references and enacts valued possibilities.", "3": "Some future values but weak enactment.", "0": "No future values; fatalistic/apathic stance." }
+          "scoring": {
+            "5": "Actively references and enacts valued possibilities.",
+            "3": "Some future values but weak enactment.",
+            "0": "No future values; fatalistic/apathic stance."
+          }
         }
       ]
     }

@@ -25,7 +25,7 @@ Users of this codebook should treat the Längle quotes accordingly:
 
 ## On other embedded content
 
-LLM-derived text in this codebook (e.g., the `instructions_for_llm` block, scoring rubrics, sub-theme labels) is treated as the author's contribution — produced through the multi-LLM methodology described in `docs/lineage.md` — and is covered by the CC BY-NC-ND 4.0 license.
+LLM-derived text in this codebook (e.g., the `instructions_for_llm` block, scoring rubrics, sub-theme labels) is treated as the author's contribution — produced through the multi-LLM methodology described in `docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md` — and is covered by the CC BY-NC-ND 4.0 license.
 
 The author is not a co-author with the LLMs; the LLMs are tools (see README). Any text produced by an LLM during the build was reviewed and accepted by the author before being incorporated.
 

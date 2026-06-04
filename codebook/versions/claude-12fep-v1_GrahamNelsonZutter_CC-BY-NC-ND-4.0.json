@@ -1,4 +1,9 @@
 {
+  "_attribution": {
+    "created_by": "Graham Nelson-Zutter",
+    "copyright": "©2026 Aestra Inc. except when external source noted.",
+    "license": "CC BY-NC-ND-4.0"
+  },
   "codebook_metadata": {
     "title": "Codebook for the 12 Fundamental Existential Prerequisites (12FEP)",
     "version": "1.0",
@@ -14,7 +19,10 @@
         "apa_citation": "Längle, A. (2011). The existential fundamental motivations structuring the motivational process. In D. A. Leontiev (Ed.), Motivation, consciousness and self-regulation (pp. 27-42). Nova Science Publishers, Inc.",
         "reference_id": "Längle2011"
       }
-    ]
+    ],
+    "created_by": "Graham Nelson-Zutter",
+    "copyright": "©2026 Aestra Inc. except when external source noted.",
+    "license": "CC BY-NC-ND-4.0"
   },
   "instructions_for_llm": {
     "overview": "This codebook is designed for Large Language Models (LLMs) to score participant testimony on the 12 Fundamental Existential Prerequisites (12FEP) developed by Alfried Längle. Each prerequisite is scored on a scale from 0 (absent) to 5 (fully present).",

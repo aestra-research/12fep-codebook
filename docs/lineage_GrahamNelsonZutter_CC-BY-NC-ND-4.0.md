@@ -1,3 +1,9 @@
+---
+created_by: "Graham Nelson-Zutter"
+copyright: "©2026 Aestra Inc. except when external source noted."
+license: "CC BY-NC-ND-4.0"
+---
+
 # Version Lineage and Build Methodology
 
 This document explains how each version of the 12FEP codebook was produced, and **why traditional file-level git versioning is not sufficient** as the canonical record.
