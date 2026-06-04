@@ -21,15 +21,15 @@ But the codebook's version lineage is **not a linear single-author edit chain.**
 
 This is *parallel + consensus + selection*, not *single-author iteration*. `git log` would show "added v1.0 / v1.1 / v1.2 / v2.0 / MASTER" — a flat chain that loses the parallelism and the consensus structure.
 
-`docs/lineage.md` (this file) records the methodology. `git log` records the *deposit* of each version into this repo. The two are complementary:
+`docs/lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md` (this file) records the methodology. `git log` records the *deposit* of each version into this repo. The two are complementary:
 
 | What | Tracked by |
 |---|---|
 | When each file was uploaded to the repo | `git log` |
-| Which LLM produced each version | `lineage.md` |
-| Which prompt and source set produced each version | `lineage.md` |
-| Which merge step produced each "merged-vN" | `lineage.md` |
-| Why the MASTER was selected | `lineage.md` (LLM jury vote outcome + researcher review note) |
+| Which LLM produced each version | `lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md` |
+| Which prompt and source set produced each version | `lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md` |
+| Which merge step produced each "merged-vN" | `lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md` |
+| Why the MASTER was selected | `lineage_GrahamNelsonZutter_CC-BY-NC-ND-4.0.md` (LLM jury vote outcome + researcher review note) |
 | What changed file-byte-wise between adjacent versions | `git diff` |
 
 ## Per-LLM strengths
@@ -56,9 +56,9 @@ Each of three LLMs received the same prompt (P18) and the same two Längle sourc
 
 | LLM | v1 file |
 |---|---|
-| Claude Sonnet 4.5 | `codebook/versions/claude-12fep-v1.json` |
-| Gemini 2.5 Turbo | `codebook/versions/gemini-12fep-v1.json` |
-| ChatGPT 5 Thinking | `codebook/versions/chatgpt-12fep-v1.json` |
+| Claude Sonnet 4.5 | `codebook/versions/claude-12fep-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
+| Gemini 2.5 Turbo | `codebook/versions/gemini-12fep-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
+| ChatGPT 5 Thinking | `codebook/versions/chatgpt-12fep-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
 
 ### Step 2 — Cross-LLM merge (parallel)
 
@@ -66,9 +66,9 @@ Each LLM received all three v1 files and ran prompt P19, producing its own merge
 
 | Merger LLM | merged-v1 file |
 |---|---|
-| Claude Sonnet 4.5 | `codebook/versions/claude-12fep-merged-v1.json` |
-| Gemini 2.5 Turbo | `codebook/versions/gemini-12fep-merged-v1.json` |
-| ChatGPT 5 Thinking | `codebook/versions/chatgpt-12fep-merged-v1.json` |
+| Claude Sonnet 4.5 | `codebook/versions/claude-12fep-merged-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
+| Gemini 2.5 Turbo | `codebook/versions/gemini-12fep-merged-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
+| ChatGPT 5 Thinking | `codebook/versions/chatgpt-12fep-merged-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
 
 ### Step 3 — Verification pass: cross-LLM merge of the three merged-v1s
 
@@ -76,9 +76,9 @@ Each of the three LLMs was given **all three merged-v1 files** plus the original
 
 | Merger LLM | merged-v2 file |
 |---|---|
-| ChatGPT 5 Thinking | `codebook/versions/chatgpt-12fep-merged-v2.json` |
-| Gemini 2.5 Turbo | `codebook/versions/gemini-12fep-merged-v2.json` |
-| Claude Sonnet 4.5 | `codebook/versions/claude-12fep-merged-v2.json` *(byte-identical to `codebook/12fep-master.json` — see Step 4)* |
+| ChatGPT 5 Thinking | `codebook/versions/chatgpt-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
+| Gemini 2.5 Turbo | `codebook/versions/gemini-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` |
+| Claude Sonnet 4.5 | `codebook/versions/claude-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` *(byte-identical to `codebook/12fep-master_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` — see Step 4)* |
 
 All three merged-v2s used the same inputs (the three merged-v1s + the Längle PDFs). They are *parallel candidates* for the final codebook, not sequential refinements. The MASTER's `codebook_metadata.merged_from` field lists the three merged-v1 inputs, confirming this structure.
 
@@ -92,7 +92,7 @@ Each LLM was asked (prompt P21) to evaluate all three merged-v2 codebooks and se
 
 3/3 unanimous → Claude's merged-v2 was promoted to **MASTER**.
 
-The MASTER is byte-identical to `codebook/versions/claude-12fep-merged-v2.json`. The MASTER lives at `codebook/12fep-master.json` as the canonical "use this one" pointer; the symmetric `versions/claude-12fep-merged-v2.json` copy makes the 3×3 parallel structure (3 LLMs × 3 stages) visible in the `versions/` directory for provenance auditing.
+The MASTER is byte-identical to `codebook/versions/claude-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json`. The MASTER lives at `codebook/12fep-master_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` as the canonical "use this one" pointer; the symmetric `versions/claude-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` copy makes the 3×3 parallel structure (3 LLMs × 3 stages) visible in the `versions/` directory for provenance auditing.
 
 ### Step 5 — Manual researcher review
 
@@ -143,18 +143,18 @@ The codebook was authored Oct 31 – Nov 30, 2025, ~6 months before this repo wa
 
 | File | Original creation (PT) | Stage |
 |---|---|---|
-| `versions/gemini-12fep-v1.json` | 2025-10-31  20:44 | Step 1 — Gemini's independent v1 |
-| `versions/chatgpt-12fep-v1.json` | 2025-10-31  20:45 | Step 1 — ChatGPT's independent v1 |
-| `versions/claude-12fep-v1.json` | 2025-10-31  21:13 | Step 1 — Claude's independent v1 |
-| `versions/chatgpt-12fep-merged-v1.json` | 2025-10-31  21:16 | Step 2 — ChatGPT's merge of all 3 v1s |
-| `versions/gemini-12fep-merged-v1.json` | 2025-10-31  21:17 | Step 2 — Gemini's merge of all 3 v1s |
-| `versions/claude-12fep-merged-v1.json` | 2025-10-31  21:32 | Step 2 — Claude's merge of all 3 v1s |
-| `versions/chatgpt-12fep-merged-v2.json` | 2025-11-01  00:27 | Step 3 — ChatGPT's merged-v2 candidate |
-| `versions/gemini-12fep-merged-v2.json` | 2025-11-01  00:27 | Step 3 — Gemini's merged-v2 candidate |
-| `versions/claude-12fep-merged-v2.json` (= `12fep-master.json`) | 2025-11-30  15:40 | Step 3 — Claude's merged-v2 (promoted to MASTER per LLM jury) |
+| `versions/gemini-12fep-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-10-31  20:44 | Step 1 — Gemini's independent v1 |
+| `versions/chatgpt-12fep-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-10-31  20:45 | Step 1 — ChatGPT's independent v1 |
+| `versions/claude-12fep-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-10-31  21:13 | Step 1 — Claude's independent v1 |
+| `versions/chatgpt-12fep-merged-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-10-31  21:16 | Step 2 — ChatGPT's merge of all 3 v1s |
+| `versions/gemini-12fep-merged-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-10-31  21:17 | Step 2 — Gemini's merge of all 3 v1s |
+| `versions/claude-12fep-merged-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-10-31  21:32 | Step 2 — Claude's merge of all 3 v1s |
+| `versions/chatgpt-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-11-01  00:27 | Step 3 — ChatGPT's merged-v2 candidate |
+| `versions/gemini-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` | 2025-11-01  00:27 | Step 3 — Gemini's merged-v2 candidate |
+| `versions/claude-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` (= `12fep-master_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json`) | 2025-11-30  15:40 | Step 3 — Claude's merged-v2 (promoted to MASTER per LLM jury) |
 
 Source: filesystem mtimes from the original codebook development workspace (iCloud, `~/Library/Mobile Documents/com~apple~CloudDocs/LibreOffice/*EA & LT Codebooks/LLMS/`). Mtimes are preserved at the source files and are verifiable by anyone with access to that workspace.
 
 ## Note on the renamed file
 
-In the original development workspace, Claude's merged-v1 was named `claude-12fep-merged-codebook-v1.json` (with the extra word "codebook"). For symmetric naming across LLMs in this repo, it has been renamed to `claude-12fep-merged-v1.json`. The byte content of the codebook itself is unchanged; the `merged_from` reference inside `12fep-master.json` and `versions/claude-12fep-merged-v2.json` has been updated to reflect the in-repo filename (the only modification to the original artifact's JSON content).
+In the original development workspace, Claude's merged-v1 was named `claude-12fep-merged-codebook-v1.json` (with the extra word "codebook"). For symmetric naming across LLMs in this repo, it has been renamed to `claude-12fep-merged-v1_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json`. The byte content of the codebook itself is unchanged; the `merged_from` reference inside `12fep-master_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` and `versions/claude-12fep-merged-v2_GrahamNelsonZutter_CC-BY-NC-ND-4.0.json` has been updated to reflect the in-repo filename (the only modification to the original artifact's JSON content).

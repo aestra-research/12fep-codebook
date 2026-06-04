@@ -1,7 +1,7 @@
 # EA 12FEP Codebook — for LLM-Assisted Qualitative Analysis
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20481464.svg)](https://doi.org/10.5281/zenodo.20481464)
+[![DOI](https://zenodo.org/badge/1255517509.svg)](https://zenodo.org/badge/latestdoi/1255517509)
 
 A structured codebook for scoring participant testimony against Längle's **12 Fundamental Existential Prerequisites (12FEP)** framework, designed for use with Large Language Models (LLMs) as a research instrument.
 
