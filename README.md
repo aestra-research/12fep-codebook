@@ -1,6 +1,6 @@
 # EA 12FEP Codebook — for LLM-Assisted Qualitative Analysis
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20481464.svg)](https://doi.org/10.5281/zenodo.20481464)
 
 A structured codebook for scoring participant testimony against Längle's **12 Fundamental Existential Prerequisites (12FEP)** framework, designed for use with Large Language Models (LLMs) as a research instrument.
@@ -19,7 +19,7 @@ For the methodology that produced this codebook, see the companion paper:
 ## Repo layout
 
 ```
-LICENSE                  CC BY 4.0
+LICENSE                  CC BY-NC-ND 4.0
 NOTICE.md                Längle source quotation clarification
 README.md                this file
 CITATION.cff             machine-readable citation metadata
@@ -78,6 +78,6 @@ If a future contributor proposes a PR, they should be added to `CITATION.cff` as
 
 ## License
 
-This work is released under **Creative Commons Attribution 4.0 International (CC BY 4.0)** — see `LICENSE`.
+This work is released under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)** — see `LICENSE`.
 
 The Längle source quotations embedded in this codebook are used under academic fair use / quotation right and remain subject to their original publishers' copyright — see `NOTICE.md`.

@@ -1,8 +1,8 @@
 # NOTICE — Source quotations and copyright
 
-This codebook is released under the Creative Commons Attribution 4.0 International license (CC BY 4.0) — see `LICENSE`.
+This codebook is released under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license (CC BY-NC-ND 4.0) — see `LICENSE`.
 
-The CC BY 4.0 license here covers **the codebook itself** — that is:
+The CC BY-NC-ND 4.0 license here covers **the codebook itself** — that is:
 
 - the JSON schema and structure
 - the multi-LLM build methodology
@@ -20,12 +20,12 @@ It does **not** and **cannot** cover the embedded Längle source quotations. Tho
 Users of this codebook should treat the Längle quotes accordingly:
 
 - Quoting them in further academic work is appropriate under the same fair-use / quotation principles.
-- Republishing them in bulk, or extracting them to build a separate Längle-quote dataset, is **not authorized** by this codebook's CC BY 4.0 license and should be cleared with the original publishers if needed.
-- Where Längle quotations are reproduced in derivative works (e.g., your own published codebook extensions), the same quotation-rights logic applies — the CC BY 4.0 license of your derivative does not extend to the Längle source text.
+- Republishing them in bulk, or extracting them to build a separate Längle-quote dataset, is **not authorized** by this codebook's CC BY-NC-ND 4.0 license and should be cleared with the original publishers if needed.
+- Where Längle quotations are reproduced in derivative works (e.g., your own published codebook extensions), the same quotation-rights logic applies — the CC BY-NC-ND 4.0 license of your derivative does not extend to the Längle source text.
 
 ## On other embedded content
 
-LLM-derived text in this codebook (e.g., the `instructions_for_llm` block, scoring rubrics, sub-theme labels) is treated as the author's contribution — produced through the multi-LLM methodology described in `docs/lineage.md` — and is covered by the CC BY 4.0 license.
+LLM-derived text in this codebook (e.g., the `instructions_for_llm` block, scoring rubrics, sub-theme labels) is treated as the author's contribution — produced through the multi-LLM methodology described in `docs/lineage.md` — and is covered by the CC BY-NC-ND 4.0 license.
 
 The author is not a co-author with the LLMs; the LLMs are tools (see README). Any text produced by an LLM during the build was reviewed and accepted by the author before being incorporated.
 

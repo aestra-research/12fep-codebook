@@ -23,7 +23,7 @@ authors:
     orcid: "https://orcid.org/0009-0003-9567-6512"
 version: "1.0"
 date-released: "2026-06-06"  # WCET4 presentation date (Sat 6 Jun 2026, Denver, CO)
-license: "CC-BY-4.0"
+license: "CC-BY-NC-ND-4.0"
 repository-code: "https://github.com/aestra-research/12fep-codebook"
 url: "https://github.com/aestra-research/12fep-codebook"
 doi: "10.5281/zenodo.20481464"
